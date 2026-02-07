@@ -519,7 +519,38 @@
     <?php
     include('inc/footer.php');
     ?>
+    <button id="backToTop" aria-label="Back to top" class="fixed bottom-6 right-6 z-50
+         flex items-center justify-center
+         w-14 h-14 rounded-full
+         bg-[#1f9d9c] text-white
+         shadow-xl
+         opacity-0 translate-y-6 pointer-events-none
+         transition-all duration-500 ease-out
+         hover:scale-105
+         dark:bg-[#178f8e]">
 
+        <!-- Progress Ring -->
+        <svg class="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="46" stroke="rgba(255,255,255,0.3)" stroke-width="6" fill="none" />
+            <circle id="progressRing" cx="50" cy="50" r="46" stroke="white" stroke-width="6" fill="none"
+                stroke-dasharray="289" stroke-dashoffset="289" stroke-linecap="round" />
+        </svg>
+
+        <!-- Arrow Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 relative z-10" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+
+        <!-- Tooltip -->
+        <span class="absolute -top-10 px-3 py-1 text-xs rounded-md
+           bg-black text-white opacity-0
+           transition-opacity duration-300
+           pointer-events-none
+           group-hover:opacity-100">
+            Back to top
+        </span>
+    </button>
 
 </body>
 <script>
@@ -632,6 +663,44 @@
         }, { threshold: 0.3 });
 
         observerrr.observe(footer);
+    });
+
+    const button = document.getElementById("backToTop");
+    const ring = document.getElementById("progressRing");
+    const circumference = 2 * Math.PI * 46;
+
+    ring.style.strokeDasharray = circumference;
+
+    let hideTimeout;
+
+    function updateProgress() {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = scrollTop / docHeight;
+        ring.style.strokeDashoffset = circumference * (1 - progress);
+    }
+
+    function showButton() {
+        button.classList.remove("opacity-0", "translate-y-6", "pointer-events-none");
+        button.classList.add("opacity-100", "translate-y-0");
+        clearTimeout(hideTimeout);
+
+        hideTimeout = setTimeout(() => {
+            button.classList.add("opacity-0", "translate-y-6", "pointer-events-none");
+            button.classList.remove("opacity-100", "translate-y-0");
+        }, 3000);
+    }
+
+    window.addEventListener("scroll", () => {
+        updateProgress();
+
+        if (window.scrollY > 400) {
+            showButton();
+        }
+    });
+
+    button.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
     });
 </script>
 

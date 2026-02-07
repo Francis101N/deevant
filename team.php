@@ -69,7 +69,8 @@
             <!-- Section Heading -->
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold font-['Sacramento'] text-[#1f9d9c]">Meet The Team</h2>
-                <div class="w-16 h-1 bg-[#1f9d9c] mx-auto mt-2 rounded-full"></div>
+                <div class="w-16 h-1 bg-[#1f9d9c] mx-auto mt-2 rounded-full"></div><br>
+                <p>The people driving innovation, collaboration, and results.</p>
             </div>
             <br><br>
 
@@ -325,8 +326,6 @@
                     </div>
                 </div>
 
-                <!-- Duplicate same structure for all team members -->
-
             </div>
         </section>
 
@@ -336,14 +335,13 @@
            transition-all duration-700 ease-out">
                 <div class="text-center mb-12">
                     <h2 class="text-4xl font-normal text-[#1f9d9c] font-['Sacramento']">
-                        Meet The Team
+                        Apply Today
                     </h2>
                     <div class="w-16 h-1 bg-[#1f9d9c] mx-auto mt-2 rounded-full"></div>
                 </div>
 
                 <p class="text-gray-600 leading-relaxed mb-6 text-center">
-                    This is a paragraph. Click on "Edit Text" or double click on the text box
-                    to start editing the content.
+                    Take the next step in your professional journey with us.
                 </p>
 
                 <div class="space-y-2 text-center">
@@ -363,54 +361,121 @@
         include('inc/footer.php');
         ?>
 
-
-        <script>
-            // Slide-in animation
-            const teamCards = document.querySelectorAll('.slide-in');
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('opacity-100', 'translate-y-0');
-                        entry.target.classList.remove('opacity-0', 'translate-y-12');
-                    }
-                });
-            }, { threshold: 0.2 });
-            teamCards.forEach(card => observer.observe(card));
-
-            const card = document.getElementById("applyCard");
-
-            const observerr = new IntersectionObserver(
-                ([entry]) => {
-                    if (entry.isIntersecting) {
-                        card.classList.remove("opacity-0", "scale-95", "translate-y-6");
-                        observerr.disconnect();
-                    }
-                },
-                { threshold: 0.3 }
-            );
-
-            observerr.observe(card);
-
-
-            document.addEventListener("DOMContentLoaded", () => {
-                const footer = document.querySelector(".reveal-footer");
-
-                const observerrr = new IntersectionObserver(entries => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            footer.classList.remove("opacity-0", "translate-y-12");
-                            observerrr.unobserve(footer);
-                        }
-                    });
-                }, { threshold: 0.3 });
-
-                observerrr.observe(footer);
-            });
-        </script>
-
-
     </section>
 
+    <button id="backToTop" aria-label="Back to top" class="fixed bottom-6 right-6 z-50
+         flex items-center justify-center
+         w-14 h-14 rounded-full
+         bg-[#1f9d9c] text-white
+         shadow-xl
+         opacity-0 translate-y-6 pointer-events-none
+         transition-all duration-500 ease-out
+         hover:scale-105
+         dark:bg-[#178f8e]">
+
+        <!-- Progress Ring -->
+        <svg class="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="46" stroke="rgba(255,255,255,0.3)" stroke-width="6" fill="none" />
+            <circle id="progressRing" cx="50" cy="50" r="46" stroke="white" stroke-width="6" fill="none"
+                stroke-dasharray="289" stroke-dashoffset="289" stroke-linecap="round" />
+        </svg>
+
+        <!-- Arrow Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 relative z-10" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+
+        <!-- Tooltip -->
+        <span class="absolute -top-10 px-3 py-1 text-xs rounded-md
+           bg-black text-white opacity-0
+           transition-opacity duration-300
+           pointer-events-none
+           group-hover:opacity-100">
+            Back to top
+        </span>
+    </button>
 </body>
+
+<script>
+    // Slide-in animation
+    const teamCards = document.querySelectorAll('.slide-in');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-12');
+            }
+        });
+    }, { threshold: 0.2 });
+    teamCards.forEach(card => observer.observe(card));
+
+    const card = document.getElementById("applyCard");
+
+    const observerr = new IntersectionObserver(
+        ([entry]) => {
+            if (entry.isIntersecting) {
+                card.classList.remove("opacity-0", "scale-95", "translate-y-6");
+                observerr.disconnect();
+            }
+        },
+        { threshold: 0.3 }
+    );
+
+    observerr.observe(card);
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const footer = document.querySelector(".reveal-footer");
+
+        const observerrr = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    footer.classList.remove("opacity-0", "translate-y-12");
+                    observerrr.unobserve(footer);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        observerrr.observe(footer);
+    });
+    const button = document.getElementById("backToTop");
+    const ring = document.getElementById("progressRing");
+    const circumference = 2 * Math.PI * 46;
+
+    ring.style.strokeDasharray = circumference;
+
+    let hideTimeout;
+
+    function updateProgress() {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = scrollTop / docHeight;
+        ring.style.strokeDashoffset = circumference * (1 - progress);
+    }
+
+    function showButton() {
+        button.classList.remove("opacity-0", "translate-y-6", "pointer-events-none");
+        button.classList.add("opacity-100", "translate-y-0");
+        clearTimeout(hideTimeout);
+
+        hideTimeout = setTimeout(() => {
+            button.classList.add("opacity-0", "translate-y-6", "pointer-events-none");
+            button.classList.remove("opacity-100", "translate-y-0");
+        }, 3000);
+    }
+
+    window.addEventListener("scroll", () => {
+        updateProgress();
+
+        if (window.scrollY > 400) {
+            showButton();
+        }
+    });
+
+    button.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+</script>
 
 </html>

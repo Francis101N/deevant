@@ -104,26 +104,20 @@
                     <!-- Social Icons -->
                     <div class="flex gap-4 mt-6">
                         <!-- LinkedIn -->
-                        <a href="#" class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
+                        <a href="https://www.linkedin.com/in/amuzukofimawuena?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                            class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                 <path
                                     d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8h4.52V24H.24V8zm7.07 0h4.33v2.16h.06c.6-1.14 2.06-2.34 4.25-2.34 4.55 0 5.38 2.99 5.38 6.87V24h-4.54v-7.89c0-1.88-.03-4.3-2.62-4.3-2.63 0-3.03 2.05-3.03 4.16V24H7.31V8z" />
                             </svg>
                         </a>
 
-                        <!-- Twitter -->
-                        <a href="#" class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/kofi_khaveli?igsh=MTduamIzd283NDBlNg%3D%3D&utm_source=qr"
+                            class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                 <path
-                                    d="M24 4.56c-.89.39-1.84.65-2.84.77a4.92 4.92 0 002.15-2.72 9.86 9.86 0 01-3.13 1.2 4.91 4.91 0 00-8.38 4.48A13.94 13.94 0 011.67 3.15 4.91 4.91 0 003.18 9.7a4.9 4.9 0 01-2.23-.62v.06a4.91 4.91 0 003.94 4.81 4.91 4.91 0 01-2.22.08 4.92 4.92 0 004.6 3.42 9.84 9.84 0 01-6.1 2.1c-.4 0-.79-.02-1.18-.07A13.91 13.91 0 007.56 21c9.05 0 14-7.5 14-14 0-.21 0-.42-.02-.63A10.03 10.03 0 0024 4.56z" />
-                            </svg>
-                        </a>
-
-                        <!-- Facebook -->
-                        <a href="#" class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                                <path
-                                    d="M22.675 0h-21.35C.595 0 0 .593 0 1.326v21.348C0 23.407.593 24 1.326 24h11.495v-9.294H9.691v-3.622h3.13V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.463.098 2.795.142v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.31h3.587l-.467 3.622h-3.12V24h6.116C23.407 24 24 23.407 24 22.674V1.326C24 .593 23.407 0 22.675 0z" />
+                                    d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5C18.22 4 20 5.78 20 7.75v8.5C20 18.22 18.22 20 16.25 20h-8.5C5.78 20 4 18.22 4 16.25v-8.5C4 5.78 5.78 4 7.75 4zm4.25 2.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zm0 2a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm5.25-.88a1.13 1.13 0 100 2.26 1.13 1.13 0 000-2.26z" />
                             </svg>
                         </a>
                     </div>
@@ -160,21 +154,6 @@
                             </svg>
                         </a>
 
-                        <!-- Twitter -->
-                        <a href="#" class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                                <path
-                                    d="M24 4.56c-.89.39-1.84.65-2.84.77a4.92 4.92 0 002.15-2.72 9.86 9.86 0 01-3.13 1.2 4.91 4.91 0 00-8.38 4.48A13.94 13.94 0 011.67 3.15 4.91 4.91 0 003.18 9.7a4.9 4.9 0 01-2.23-.62v.06a4.91 4.91 0 003.94 4.81 4.91 4.91 0 01-2.22.08 4.92 4.92 0 004.6 3.42 9.84 9.84 0 01-6.1 2.1c-.4 0-.79-.02-1.18-.07A13.91 13.91 0 007.56 21c9.05 0 14-7.5 14-14 0-.21 0-.42-.02-.63A10.03 10.03 0 0024 4.56z" />
-                            </svg>
-                        </a>
-
-                        <!-- Facebook -->
-                        <a href="#" class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                                <path
-                                    d="M22.675 0h-21.35C.595 0 0 .593 0 1.326v21.348C0 23.407.593 24 1.326 24h11.495v-9.294H9.691v-3.622h3.13V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.463.098 2.795.142v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.31h3.587l-.467 3.622h-3.12V24h6.116C23.407 24 24 23.407 24 22.674V1.326C24 .593 23.407 0 22.675 0z" />
-                            </svg>
-                        </a>
                     </div>
                 </div>
                 <div
@@ -252,7 +231,8 @@
                     <!-- Social Icons -->
                     <div class="flex gap-4 mt-6">
                         <!-- LinkedIn -->
-                        <a href="https://www.linkedin.com/in/francis-nwankwo-661595218/" class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
+                        <a href="https://www.linkedin.com/in/francis-nwankwo-661595218/"
+                            class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                 <path
                                     d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8h4.52V24H.24V8zm7.07 0h4.33v2.16h.06c.6-1.14 2.06-2.34 4.25-2.34 4.55 0 5.38 2.99 5.38 6.87V24h-4.54v-7.89c0-1.88-.03-4.3-2.62-4.3-2.63 0-3.03 2.05-3.03 4.16V24H7.31V8z" />
@@ -260,7 +240,8 @@
                         </a>
 
                         <!-- Twitter -->
-                        <a href="https://x.com/francis65176212?s=21" class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
+                        <a href="https://x.com/francis65176212?s=21"
+                            class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                 <path
                                     d="M24 4.56c-.89.39-1.84.65-2.84.77a4.92 4.92 0 002.15-2.72 9.86 9.86 0 01-3.13 1.2 4.91 4.91 0 00-8.38 4.48A13.94 13.94 0 011.67 3.15 4.91 4.91 0 003.18 9.7a4.9 4.9 0 01-2.23-.62v.06a4.91 4.91 0 003.94 4.81 4.91 4.91 0 01-2.22.08 4.92 4.92 0 004.6 3.42 9.84 9.84 0 01-6.1 2.1c-.4 0-.79-.02-1.18-.07A13.91 13.91 0 007.56 21c9.05 0 14-7.5 14-14 0-.21 0-.42-.02-.63A10.03 10.03 0 0024 4.56z" />
@@ -268,7 +249,8 @@
                         </a>
 
                         <!-- TikTok -->
-                        <a href="https://tiktok.com/@techbyfrancis" class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
+                        <a href="https://tiktok.com/@techbyfrancis"
+                            class="text-[#1f9d9c] hover:scale-110 transition-transform w-6 h-6">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                 <path
                                     d="M19.589 6.686a4.793 4.793 0 0 1-2.355-.616 4.807 4.807 0 0 1-1.742-1.712A4.793 4.793 0 0 1 15.005 2h-3.356v13.02a2.908 2.908 0 1 1-2.908-2.908c.226 0 .447.025.661.074V8.773a6.248 6.248 0 0 0-.661-.036A6.255 6.255 0 1 0 15.005 15V8.249a8.122 8.122 0 0 0 4.584 1.44V6.686z" />
@@ -347,11 +329,11 @@
                 <div class="space-y-2 text-center">
                     <a href="mailto:info@mysite.com"
                         class="block text-gray-900 hover:text-blue-600 transition transform hover:translate-x-1">
-                        info@mysite.com
+                        info@deevant.com
                     </a>
 
                     <span class="block text-gray-900">
-                        123-456-7890
+                        (234) 912-648-1829
                     </span>
                 </div>
             </div>

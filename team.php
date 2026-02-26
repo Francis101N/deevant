@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team | Deevant</title>
+    <link rel="icon" href="images/deevant-icon.jpeg">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-papfY0xTq1Qm9G+N0a2C+G8p7G5tVx1OzOfh1aUeJONxvT5v0F0sL3k5u+K4m0j1n7xR27RZDJx0kX75XED9CQ=="
@@ -380,6 +381,9 @@
 </body>
 
 <script>
+    document.getElementById('menuBtn').onclick = () =>
+        document.getElementById('mobileMenu').classList.toggle('hidden');
+
     // Slide-in animation
     const teamCards = document.querySelectorAll('.slide-in');
     const observer = new IntersectionObserver(entries => {

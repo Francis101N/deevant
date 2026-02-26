@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Deevant</title>
+    <link rel="icon" href="images/deevant-icon.jpeg">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-papfY0xTq1Qm9G+N0a2C+G8p7G5tVx1OzOfh1aUeJONxvT5v0F0sL3k5u+K4m0j1n7xR27RZDJx0kX75XED9CQ=="
@@ -55,6 +56,18 @@
         --deevant-accent: #1f9d9c;
         /* modern tech blue */
     }
+
+    @media (max-width: 1024px) and (min-width: 768px) {
+        .main {
+            padding-top: 40px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .main {
+            padding-top: 20px;
+        }
+    }
 </style>
 
 <body>
@@ -62,7 +75,7 @@
     include('inc/header.php');
     ?>
 
-    <section class="bg-white py-18">
+    <section class="bg-white main">
         <div class="container mx-auto max-w-7xl px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 

@@ -126,6 +126,9 @@
 
 <script>
 
+    document.getElementById('menuBtn').onclick = () =>
+        document.getElementById('mobileMenu').classList.toggle('hidden');
+
     document.addEventListener("DOMContentLoaded", () => {
         const footer = document.querySelector(".reveal-footer");
 

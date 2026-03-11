@@ -21,7 +21,7 @@
 
                     <a href="projects"
                         class="text-gray-700 hover:text-[color:var(--deevant-accent)] transition font-medium">
-                        Projects
+                        Products
                     </a>
 
                     <a href="team"
@@ -52,7 +52,7 @@
             <div id="mobileMenu" class="hidden md:hidden pb-4 space-y-1">
                 <a href="./" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">Home</a>
                 <a href="#services" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">Our Services</a>
-                <a href="projects" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">Projects</a>
+                <a href="products" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">Products</a>
                 <a href="team" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">Our Team</a>
 
                 <a href="#contact" class="block text-center mt-2 px-4 py-2 rounded-lg text-white

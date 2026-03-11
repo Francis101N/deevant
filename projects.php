@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Deevant</title>
+    <title>Products | Deevant</title>
     <link rel="icon" href="images/deevant-icon2.jpeg">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -91,7 +91,7 @@
         <section id="team" class="py-20 px-6 sm:px-12 lg:px-24 bg-gray-50">
             <!-- Section Heading -->
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold font-['Sacramento'] text-[#1f9d9c]">Our Projects</h2>
+                <h2 class="text-3xl font-bold font-['Sacramento'] text-[#1f9d9c]">Our Products</h2>
                 <div class="w-16 h-1 bg-[#1f9d9c] mx-auto mt-2 rounded-full"></div><br>
                 <p>Showcasing the initiatives and solutions shaping innovation, driving collaboration, and delivering
                     real impact.</p>
@@ -101,7 +101,7 @@
             <div class="text-center mt-20">
                 <p class="text-2xl font-extrabold text-[#1f9d9c] opacity-0 transform translate-y-8 transition-all duration-1000 ease-out"
                     data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
-                    Our projects will be uploaded soon, still in progress.
+                    Our Products will be uploaded soon, still in progress.
                 </p>
             </div>
 

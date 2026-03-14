@@ -31,8 +31,14 @@
                     },
                     keyframes: {
                         slideInLeft: {
-                            '0%': { transform: 'translateX(-100%)', opacity: '0' },
-                            '100%': { transform: 'translateX(0)', opacity: '1' }
+                            '0%': {
+                                transform: 'translateX(-100%)',
+                                opacity: '0'
+                            },
+                            '100%': {
+                                transform: 'translateX(0)',
+                                opacity: '1'
+                            }
                         }
                     },
                     animation: {
@@ -393,7 +399,9 @@
                 entry.target.classList.remove('opacity-0', 'translate-y-12');
             }
         });
-    }, { threshold: 0.2 });
+    }, {
+        threshold: 0.2
+    });
     teamCards.forEach(card => observer.observe(card));
 
     const card = document.getElementById("applyCard");
@@ -404,8 +412,9 @@
                 card.classList.remove("opacity-0", "scale-95", "translate-y-6");
                 observerr.disconnect();
             }
-        },
-        { threshold: 0.3 }
+        }, {
+            threshold: 0.3
+        }
     );
 
     observerr.observe(card);
@@ -421,7 +430,9 @@
                     observerrr.unobserve(footer);
                 }
             });
-        }, { threshold: 0.3 });
+        }, {
+            threshold: 0.3
+        });
 
         observerrr.observe(footer);
     });
@@ -460,7 +471,10 @@
     });
 
     button.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     });
 </script>
 

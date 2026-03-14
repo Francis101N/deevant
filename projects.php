@@ -32,8 +32,14 @@
                     },
                     keyframes: {
                         slideInLeft: {
-                            '0%': { transform: 'translateX(-100%)', opacity: '0' },
-                            '100%': { transform: 'translateX(0)', opacity: '1' }
+                            '0%': {
+                                transform: 'translateX(-100%)',
+                                opacity: '0'
+                            },
+                            '100%': {
+                                transform: 'translateX(0)',
+                                opacity: '1'
+                            }
                         }
                     },
                     animation: {
@@ -80,6 +86,160 @@
     .transition-all {
         transition: all 1s ease-out;
     }
+
+    /* PRODUCTS SECTION */
+    .products-section {
+        padding: 20px 0;
+    }
+
+    /* BUTTON SCROLL AREA */
+    .product-buttons-wrapper {
+        overflow-x: auto;
+        margin-bottom: 40px;
+        scroll-behavior: smooth;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        /* centers the buttons */
+    }
+
+    .product-buttons {
+        display: flex;
+        gap: 12px;
+        width: max-content;
+    }
+
+    .product-buttons button {
+        font-size: 20px;
+    }
+
+    /* remove scrollbar look */
+    .product-buttons-wrapper::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .product-buttons-wrapper::-webkit-scrollbar-thumb {
+        background: #ccc;
+        border-radius: 10px;
+    }
+
+    /* BUTTONS MODERN STYLE */
+    .filter-btn {
+        position: relative;
+        padding: 12px 25px;
+        border: none;
+        background: #f1f1f1;
+        border-radius: 35px;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+        transition: all 0.4s ease;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    /* Hover Animation */
+    .filter-btn::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -100%;
+        width: 200%;
+        height: 100%;
+        background: linear-gradient(120deg, rgba(32, 157, 156, 0.3), rgba(32, 157, 156, 0.1), rgba(32, 157, 156, 0.3));
+        transform: translateY(-50%) rotate(25deg);
+        transition: all 0.5s ease;
+        z-index: 0;
+    }
+
+    .filter-btn:hover::before {
+        left: -20%;
+    }
+
+    .filter-btn:hover {
+        color: #fff;
+        transform: scale(1.05);
+    }
+
+    /* Active / Focus State */
+    .filter-btn.active {
+        background: #209d9c;
+        color: #fff;
+        box-shadow: 0 8px 20px rgba(32, 157, 156, 0.5);
+        transform: scale(1.05);
+    }
+
+    /* Optional: click pulse animation */
+    .filter-btn:active {
+        transform: scale(0.98);
+    }
+
+    .filter-btn span {
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+
+    .filter-btn:hover span {
+        transform: translateY(-2px);
+    }
+
+    /* PROJECT GRID */
+
+    .projects {
+        display: none;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .projects.active {
+        display: grid;
+    }
+
+
+    /* PROJECT CARD */
+
+    .project-card {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        transition: 0.3s;
+    }
+
+    .project-card:hover {
+        transform: translateY(-6px);
+    }
+
+    .project-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .project-card h4 {
+        padding: 15px;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .project-card p {
+        padding: 0 15px 20px;
+        color: #666;
+        font-size: 14px;
+    }
+
+
+    /* RESPONSIVE */
+
+    @media(max-width:768px) {
+
+        .projects {
+            grid-template-columns: 1fr;
+        }
+
+    }
 </style>
 
 <body>
@@ -98,20 +258,194 @@
             </div>
             <br><br>
 
-            <div class="text-center mt-20">
-                <p class="text-2xl font-extrabold text-[#1f9d9c] opacity-0 transform translate-y-8 transition-all duration-1000 ease-out"
-                    data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
-                    Our Products will be uploaded soon, still in progress.
-                </p>
-            </div>
+            <section class="products-section">
+
+                <div class="product-buttons-wrapper">
+                    <div class="product-buttons">
+
+                        <button class="filter-btn font-['Sacramento'] active" onclick="showProjects(1)">Web & Mobile Development</button>
+                        <button class="filter-btn font-['Sacramento']" onclick="showProjects(2)">Visual Design</button>
+                        <button class="filter-btn font-['Sacramento']" onclick="showProjects(3)">CCTV installation</button>
+                        <button class="filter-btn font-['Sacramento']" onclick="showProjects(4)">Advanced Automation</button>
+                        <button class="filter-btn font-['Sacramento']" onclick="showProjects(5)">Tailored Technology Workflows</button>
+
+                    </div>
+                </div>
+
+
+                <div class="projects-container">
+
+                    <!-- PRODUCT 1 -->
+                    <div id="product1" class="projects active">
+
+                        <div class="project-card">
+                            <img src="images/project1.jpg">
+                            <h4>AI Inventory System</h4>
+                            <p>Smart inventory management powered by AI.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="images/project2.jpg">
+                            <h4>Payment Gateway</h4>
+                            <p>Secure online payment processing solution.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCT 2 -->
+                    <div id="product2" class="projects">
+
+                        <div class="project-card">
+                            <img src="images/project3.jpg">
+                            <h4>School Management System</h4>
+                            <p>Complete digital academic management platform.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="images/project4.jpg">
+                            <h4>Hospital Portal</h4>
+                            <p>Healthcare management system for clinics.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                    </div>
+
+                    <!-- PRODUCT 3 -->
+                    <div id="product3" class="projects">
+
+                        <div class="project-card">
+                            <img src="images/project3.jpg">
+                            <h4>School Management System</h4>
+                            <p>Complete digital academic management platform.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="images/project4.jpg">
+                            <h4>Hospital Portal</h4>
+                            <p>Healthcare management system for clinics.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                    </div>
+
+                    <!-- PRODUCT 4 -->
+                    <div id="product4" class="projects">
+
+                        <div class="project-card">
+                            <img src="images/project3.jpg">
+                            <h4>School Management System</h4>
+                            <p>Complete digital academic management platform.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="images/project4.jpg">
+                            <h4>Hospital Portal</h4>
+                            <p>Healthcare management system for clinics.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                    </div>
+
+                    <!-- PRODUCT 5 -->
+                    <div id="product5" class="projects">
+
+                        <div class="project-card">
+                            <img src="images/project3.jpg">
+                            <h4>School Management System</h4>
+                            <p>Complete digital academic management platform.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="images/project4.jpg">
+                            <h4>Hospital Portal</h4>
+                            <p>Healthcare management system for clinics.</p>
+                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Click to view
+                            </a>
+                            <br><br>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
 
         </section>
 
-        <?php
-        include('inc/footer.php');
-        ?>
-
     </section>
+
+    <button id="backToTop" aria-label="Back to top" class="fixed bottom-6 right-6 z-50
+         flex items-center justify-center
+         w-14 h-14 rounded-full
+         bg-[#1f9d9c] text-white
+         shadow-xl
+         opacity-0 translate-y-6 pointer-events-none
+         transition-all duration-500 ease-out
+         hover:scale-105
+         dark:bg-[#178f8e]">
+
+        <!-- Progress Ring -->
+        <svg class="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="46" stroke="rgba(255,255,255,0.3)" stroke-width="6" fill="none" />
+            <circle id="progressRing" cx="50" cy="50" r="46" stroke="white" stroke-width="6" fill="none"
+                stroke-dasharray="289" stroke-dashoffset="289" stroke-linecap="round" />
+        </svg>
+
+        <!-- Arrow Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 relative z-10" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+
+        <!-- Tooltip -->
+        <span class="absolute -top-10 px-3 py-1 text-xs rounded-md
+           bg-black text-white opacity-0
+           transition-opacity duration-300
+           pointer-events-none
+           group-hover:opacity-100">
+            Back to top
+        </span>
+    </button>
+
+    <?php
+    include('inc/footer.php');
+    ?>
+
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -125,7 +459,6 @@
 </body>
 
 <script>
-
     document.getElementById('menuBtn').onclick = () =>
         document.getElementById('mobileMenu').classList.toggle('hidden');
 
@@ -139,7 +472,9 @@
                     observerrr.unobserve(footer);
                 }
             });
-        }, { threshold: 0.3 });
+        }, {
+            threshold: 0.3
+        });
 
         observerrr.observe(footer);
     });
@@ -178,8 +513,29 @@
     });
 
     button.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     });
+
+    function showProjects(num) {
+
+        var sections = document.querySelectorAll(".projects");
+        var buttons = document.querySelectorAll(".filter-btn");
+
+        sections.forEach(sec => {
+            sec.classList.remove("active");
+        });
+
+        buttons.forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        document.getElementById("product" + num).classList.add("active");
+        buttons[num - 1].classList.add("active");
+
+    }
 </script>
 
 </html>

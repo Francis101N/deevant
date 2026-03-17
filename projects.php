@@ -110,7 +110,7 @@
     }
 
     .product-buttons button {
-        font-size: 20px;
+        font-size: 12px;
     }
 
     /* remove scrollbar look */
@@ -230,13 +230,21 @@
         font-size: 14px;
     }
 
-
     /* RESPONSIVE */
 
     @media(max-width:768px) {
 
         .projects {
             grid-template-columns: 1fr;
+        }
+
+        .product-buttons {
+            padding-left: 100%;
+            margin-left: 100%;
+        }
+
+        .product-buttons-wrapper {
+            margin-bottom: 20px;
         }
 
     }
@@ -263,11 +271,11 @@
                 <div class="product-buttons-wrapper">
                     <div class="product-buttons">
 
-                        <button class="filter-btn font-['Sacramento'] active" onclick="showProjects(1)">Web & Mobile Development</button>
-                        <button class="filter-btn font-['Sacramento']" onclick="showProjects(2)">Visual Design</button>
-                        <button class="filter-btn font-['Sacramento']" onclick="showProjects(3)">CCTV installation</button>
-                        <button class="filter-btn font-['Sacramento']" onclick="showProjects(4)">Advanced Automation</button>
-                        <button class="filter-btn font-['Sacramento']" onclick="showProjects(5)">Tailored Technology Workflows</button>
+                        <button class="filter-btn active" onclick="showProjects(1)">Web & Mobile Development</button>
+                        <button class="filter-btn" onclick="showProjects(2)">Visual Design</button>
+                        <button class="filter-btn" onclick="showProjects(3)">CCTV installation</button>
+                        <button class="filter-btn" onclick="showProjects(4)">Advanced Automation</button>
+                        <button class="filter-btn" onclick="showProjects(5)">Tailored Technology Workflows</button>
 
                     </div>
                 </div>
@@ -279,10 +287,11 @@
                     <div id="product1" class="projects active">
 
                         <div class="project-card">
-                            <img src="images/project1.jpg">
-                            <h4>AI Inventory System</h4>
-                            <p>Smart inventory management powered by AI.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            <img src="images/Screenshot 2026-03-17 at 09.40.20.png">
+                            <h4>BBR DOLCE VITA</h4>
+                            <p>Developed a fully responsive website for BBR Dolce Vita, a luxury 4-day wellness retreat on the Italian Riviera. The platform features a seamless booking system for reservations, rooms, and activities, alongside a powerful admin dashboard for managing suites, bookings, and site content. Integrated automated email notifications to enhance user communication and streamline operations. This project demonstrates deevant ability to deliver efficient, user-focused, full-stack web solutions.
+                            </p>
+                            <a href="http://bbrdolcevita.net/" class="text-red-500 hover:text-red-600 font-medium p-4">
                                 Click to view
                             </a>
                             <br><br>

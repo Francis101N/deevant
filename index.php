@@ -1,3 +1,147 @@
+<?php
+
+include("inc/conn.php");
+// Generate AES token
+function generateAESToken($data)
+{
+    $secret_key = "my_secret_key_123456";
+    $secret_iv  = "my_secret_iv_123456";
+
+    $key = hash('sha256', $secret_key);
+    $iv  = substr(hash('sha256', $secret_iv), 0, 16);
+
+    return base64_encode(openssl_encrypt($data, "AES-256-CBC", $key, 0, $iv));
+}
+
+// Get IP address
+function getUserIP()
+{
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) return $_SERVER['HTTP_CLIENT_IP'];
+    if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) return explode(',', $_SERVER['HTTP_X_FORWARDED_FOR'])[0];
+    return $_SERVER['REMOTE_ADDR'];
+}
+
+// Get Operating System
+function getUserOS()
+{
+    $userAgent = $_SERVER['HTTP_USER_AGENT'];
+    $osArray = [
+        '/windows nt 10/i'     => 'Windows 10',
+        '/windows nt 6.3/i'    => 'Windows 8.1',
+        '/windows nt 6.2/i'    => 'Windows 8',
+        '/windows nt 6.1/i'    => 'Windows 7',
+        '/macintosh|mac os x/i' => 'Mac OS X',
+        '/linux/i'             => 'Linux',
+        '/iphone/i'            => 'iPhone',
+        '/android/i'           => 'Android',
+        '/ipad/i'              => 'iPad'
+    ];
+    foreach ($osArray as $regex => $value) {
+        if (preg_match($regex, $userAgent)) return $value;
+    }
+    return "Unknown OS";
+}
+
+// Get Browser
+function getUserBrowser()
+{
+    $userAgent = $_SERVER['HTTP_USER_AGENT'];
+    $browsers = [
+        '/msie/i'       => 'Internet Explorer',
+        '/firefox/i'    => 'Firefox',
+        '/chrome/i'     => 'Chrome',
+        '/safari/i'     => 'Safari',
+        '/edge/i'       => 'Edge',
+        '/opera/i'      => 'Opera',
+        '/mobile/i'     => 'Mobile Browser'
+    ];
+    foreach ($browsers as $regex => $value) {
+        if (preg_match($regex, $userAgent)) return $value;
+    }
+    return "Unknown Browser";
+}
+
+// Get Location using ip-api
+function getLocationData($ip)
+{
+    $url = "http://ip-api.com/json/{$ip}?fields=status,country,regionName,city,query";
+    $response = @file_get_contents($url);
+    if ($response) {
+        $data = json_decode($response, true);
+        if ($data['status'] === 'success') {
+            return [
+                'ip'      => $data['query'],
+                'country' => $data['country'],
+                'region'  => $data['regionName'],
+                'city'    => $data['city']
+            ];
+        }
+    }
+    return [
+        'ip'      => $ip,
+        'country' => 'Unknown',
+        'region'  => 'Unknown',
+        'city'    => 'Unknown'
+    ];
+}
+
+// Gather all info
+$ip = getUserIP();
+$os = getUserOS();
+$browser = getUserBrowser();
+$location = getLocationData($ip);
+$country = $location['country'];
+$region  = $location['region'];
+$city    = $location['city'];
+
+// Check if IP exists
+$stmt = $pdo->prepare("SELECT COUNT(*) FROM visitors WHERE ip_address = ?");
+$stmt->execute([$ip]);
+$count = $stmt->fetchColumn();
+
+if ($count == 0) {
+    // Generate unique AES token for this visitor
+    $token = generateAESToken($ip . time());
+
+    // Insert new visitor
+    $insert = $pdo->prepare("INSERT INTO visitors (ip_address, operating_system, country, `state/region`, city, browser, token) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $insert->execute([$ip, $os, $country, $region, $city, $browser, $token]);
+
+    // Send email notification
+    require_once('PHPMailer/PHPMailerAutoload.php');
+    $mail = new PHPMailer(true);
+
+    try {
+        $mail->isSMTP();
+        $mail->Host       = 'mail.techbyfrancis.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'portfolio@techbyfrancis.com';
+        $mail->Password   = 'TECHbyfrancis101$$';
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port       = 465;
+
+        $mail->setFrom('portfolio@techbyfrancis.com', 'Deevant Innovations Notification');
+        $mail->addAddress('francisnwankwo1972@gmail.com');
+
+        $mail->isHTML(true);
+        $mail->Subject = 'New Unique Visitor Alert';
+        $mail->Body    = "
+            <h3>New Unique Visitor</h3>
+            <p><strong>IP Address:</strong> $ip</p>
+            <p><strong>Operating System:</strong> $os</p>
+            <p><strong>Browser:</strong> $browser</p>
+            <p><strong>Country:</strong> $country</p>
+            <p><strong>Region:</strong> $region</p>
+            <p><strong>City:</strong> $city</p>
+            <p><small>Time: " . date('Y-m-d H:i:s') . "</small></p>
+        ";
+
+        $mail->send();
+    } catch (Exception $e) {
+        // Handle email error silently
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,8 +173,14 @@
                     },
                     keyframes: {
                         slideInLeft: {
-                            '0%': { transform: 'translateX(-100%)', opacity: '0' },
-                            '100%': { transform: 'translateX(0)', opacity: '1' }
+                            '0%': {
+                                transform: 'translateX(-100%)',
+                                opacity: '0'
+                            },
+                            '100%': {
+                                transform: 'translateX(0)',
+                                opacity: '1'
+                            }
                         }
                     },
                     animation: {
@@ -577,7 +727,9 @@
                 observer.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.3 });
+    }, {
+        threshold: 0.3
+    });
 
     document.querySelectorAll('.slide-in-right').forEach(el => {
         observer.observe(el);
@@ -598,8 +750,9 @@
                         observer.unobserve(entry.target);
                     }
                 });
-            },
-            { threshold: 0.3 }
+            }, {
+                threshold: 0.3
+            }
         );
 
         elements.forEach(el => observer.observe(el));
@@ -627,8 +780,9 @@
                         observer.unobserve(section);
                     }
                 });
-            },
-            { threshold: 0.3 }
+            }, {
+                threshold: 0.3
+            }
         );
 
         observer.observe(section);
@@ -656,8 +810,9 @@
                         observerr.unobserve(section);
                     }
                 });
-            },
-            { threshold: 0.25 }
+            }, {
+                threshold: 0.25
+            }
         );
 
         observerr.observe(section);
@@ -673,7 +828,9 @@
                     observerrr.unobserve(footer);
                 }
             });
-        }, { threshold: 0.3 });
+        }, {
+            threshold: 0.3
+        });
 
         observerrr.observe(footer);
     });
@@ -713,7 +870,10 @@
     });
 
     button.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     });
 </script>
 

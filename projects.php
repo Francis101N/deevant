@@ -364,21 +364,66 @@
                     <div id="product4" class="projects">
 
                         <div class="project-card">
-                            <img src="images/project3.jpg">
-                            <h4>School Management System</h4>
-                            <p>Complete digital academic management platform.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
+                            <img src="images/WhatsApp Image 2026-03-18 at 7.22.31 AM.jpeg">
+                            <h4>Automated QR Attendance & Analytics Engine</h4>
+                            <p>
+                                This contactless attendance ecosystem is engineered to eliminate manual data entry errors and administrative bottlenecks within the Google Workspace environment. By deploying a QR-integrated ID system, the solution enables a cloud-based capture sequence upon entry that instantly synchronizes names, timestamps, and location data into a centralized Google Sheets master database.
+
+                                The workflow transforms legacy paper processes into a high-integrity, real-time reporting tool, providing management with immediate operational visibility and a secure, audit-ready digital trail.
+
+                                Technical Stack & Integration
+                                Logic & Automation: Google Apps Script / Google Forms
+
+                                Database Management: Google Sheets (Real-time Synchronization)
+
+                                Hardware Integration: QR-enabled Mobile Scanning
+
+                                UI/UX Design: Custom Identity Branding & Optimized Entry Forms</p>
+                            <a href="https://www.linkedin.com/posts/amuzukofimawuena_googleworkspace-processautomation-hrtech-activity-7364591067561713665-JYOw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW9yuQBDENMCd9KE_L4l6XTHndyOEMODQs" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Watch Video
                             </a>
                             <br><br>
                         </div>
 
                         <div class="project-card">
-                            <img src="images/project4.jpg">
-                            <h4>Hospital Portal</h4>
-                            <p>Healthcare management system for clinics.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
+                            <img src="images/WhatsApp Image 2026-03-18 at 7.41.58 AM.jpeg">
+                            <h4>Benevolence & Community Impact Management System</h4>
+                            <p>This is an enterprise solution built on Microsoft 365 that digitizes how community aid and resources are managed. It replaces manual processes with a centralized, automated system.
+
+                                Applicants submit requests through a secure SharePoint portal, administrators manage and approve them using a dashboard with automated workflows (Power Automate), and leadership gets real-time insights into resource usage and impact.
+
+                                The system ensures:
+
+                                Automation of approvals and processes
+
+                                Centralized data management with SharePoint Lists
+
+                                Real-time inventory tracking
+
+                                Transparent, audit-ready records
+
+                                Overall, it creates a streamlined, efficient, and accountable platform for managing assistance and resource distribution.</p>
+                            <a href="https://www.linkedin.com/posts/amuzukofimawuena_churchtech-sharepoint-nonprofitmanagement-activity-7376279318731153408-K9ZU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW9yuQBDENMCd9KE_L4l6XTHndyOEMODQs" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Watch Video
+                            </a>
+                            <br><br>
+                        </div>
+                        <div class="project-card">
+                            <img src="images/WhatsApp Image 2026-03-18 at 7.54.19 AM.jpeg">
+                            <h4>Precision-Engineered Outbound Logistics: A Logic-Driven Staff Clearance & Gate Pass Ecosystem.</h4>
+                            <p>The Product Description
+                                This automated enterprise solution digitizes personnel movement by replacing manual logs with a high-integrity Microsoft 365 workflow, utilizing Power Apps for seamless request submission and Power Automate for real-time, multi-stage departmental approvals. By centralizing exit data within SharePoint, the system provides management with an audit-ready digital trail and live operational insights, significantly reducing administrative overhead while fortifying facility security and accountability.
+
+                                Technical Specifications
+                                Engine: Power Automate (Multi-Stage Logic)
+
+                                Interface: Mobile-Responsive Power Apps Portal
+
+                                Data Layer: SharePoint List Integration
+
+                                Security: Human-in-the-Loop Verification & Timestamped Auditing</p>
+                            <a href="https://www.linkedin.com/posts/amuzukofimawuena_microsoft365-powerplatform-digitaltransformation-activity-7438258240653770752-ur4i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW9yuQBDENMCd9KE_L4l6XTHndyOEMODQs" class="text-red-500 hover:text-red-600 font-medium p-4">
+                                Watch Video
                             </a>
                             <br><br>
                         </div>

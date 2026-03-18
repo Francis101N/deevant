@@ -113,14 +113,14 @@ if ($count == 0) {
 
     try {
         $mail->isSMTP();
-        $mail->Host       = 'mail.techbyfrancis.com';
+        $mail->Host       = 'mail.deevant.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'portfolio@techbyfrancis.com';
-        $mail->Password   = 'TECHbyfrancis101$$';
+        $mail->Username   = 'notifications@deevant.com';
+        $mail->Password   = 'NOTIFICATIONS@deevant2026';
         $mail->SMTPSecure = 'ssl';
         $mail->Port       = 465;
 
-        $mail->setFrom('portfolio@techbyfrancis.com', 'Deevant Innovations Notification');
+        $mail->setFrom('notifications@deevant.com', 'Deevant Innovations Notification');
         $mail->addAddress('francisnwankwo1972@gmail.com');
 
         $mail->isHTML(true);

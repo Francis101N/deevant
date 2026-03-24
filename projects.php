@@ -286,174 +286,240 @@
                     <!-- PRODUCT 1 -->
                     <div id="product1" class="projects active">
 
-                        <div class="project-card">
-                            <img src="images/Screenshot 2026-03-17 at 09.40.20.png">
+                        <!-- PROJECT 1 -->
+                        <div class="project-card relative">
+                            <div class="overflow-hidden relative">
+                                <div id="slider1" class="flex transition-transform duration-500">
+                                    <img src="images/Screenshot 2026-03-17 at 09.40.20.png" class="w-full flex-shrink-0">
+                                    <img src="images/Screenshot 2026-03-24 at 8.10.39 AM.png" class="w-full flex-shrink-0">
+                                </div>
+
+                                <button onclick="prevSlide('slider1', 2)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">&#10094;</button>
+                                <button onclick="nextSlide('slider1', 2)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">&#10095;</button>
+                            </div>
+
                             <h4>BBR DOLCE VITA</h4>
-                            <p>Developed a fully responsive website for BBR Dolce Vita, a luxury 4-day wellness retreat on the Italian Riviera. The platform features a seamless booking system for reservations, rooms, and activities, alongside a powerful admin dashboard for managing suites, bookings, and site content. Integrated automated email notifications to enhance user communication and streamline operations. This project demonstrates deevant ability to deliver efficient, user-focused, full-stack web solutions.
+                            <p>Developed a fully responsive website for BBR Dolce Vita, a luxury 4-day wellness retreat on the Italian Riviera. The platform features a seamless booking system for reservations, rooms, and activities, alongside a powerful admin dashboard for managing suites, bookings, and site content. Integrated automated email notifications to enhance user communication and streamline operations. This project demonstrates deevant ability to deliver efficient, user-focused, full-stack web solutions.</p>
+                            <a href="http://bbrdolcevita.net/" class="text-red-500 hover:text-red-600 font-medium p-4">Click to view</a>
+                        </div>
+
+                        <!-- PROJECT 2 -->
+                        <div class="project-card relative">
+                            <div class="overflow-hidden relative">
+                                <div id="slider2" class="flex transition-transform duration-500">
+                                    <img src="images/garesplace app.png" class="w-full flex-shrink-0">
+                                    <img src="images/GARES SCREENSHOT.png" class="w-full flex-shrink-0">
+                                </div>
+
+                                <button onclick="prevSlide('slider2', 2)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">&#10094;</button>
+                                <button onclick="nextSlide('slider2', 2)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">&#10095;</button>
+                            </div>
+
+                            <h4>GARESPLACE APP</h4>
+                            <p>GaresPlace is a mobile app designed to simplify hotel dining and delivery services. It connects the frontend and backend through a dedicated PHP API for seamless interaction. Customers can browse menus of food, drinks, and desserts, view product details with pricing and images, and place orders for delivery to their rooms, the bar, or their homes. A favorites feature lets users save preferred items for quick access. On the management side, GaresPlace includes a secure admin dashboard. Hotel staff can track pending and delivered orders, assign riders, and monitor customer activities. The dashboard provides real-time analytics on active, completed, and unique orders. These insights help hotels make better decisions and improve service. By combining a user-friendly experience with powerful admin tools, GaresPlace enhances efficiency and convenience. It empowers hotels with full control over order management, customer feedback, and business performance.
+
                             </p>
-                            <a href="http://bbrdolcevita.net/" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
-                            </a>
-                            <br><br>
+                            <a href="https://play.google.com/store/apps/details?id=com.kitchen.glares_place" class="text-red-500 hover:text-red-600 font-medium p-4">View & Download app</a>
                         </div>
 
-                        <div class="project-card">
-                            <img src="images/project2.jpg">
-                            <h4>Payment Gateway</h4>
-                            <p>Secure online payment processing solution.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
-                            </a>
-                            <br><br>
-                        </div>
+                        <!-- PROJECT 3 -->
+                        <div class="project-card relative">
+                            <div class="overflow-hidden relative">
+                                <div id="slider3" class="flex transition-transform duration-500">
+                                    <img src="images/Haut Logistics _ Home - Google Chrome 18_05_2025 09_12_17.png" class="w-full flex-shrink-0">
+                                    <img src="images/" class="w-full flex-shrink-0">
+                                </div>
 
-                    </div>
+                                <button onclick="prevSlide('slider3', 2)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">&#10094;</button>
+                                <button onclick="nextSlide('slider3', 2)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">&#10095;</button>
+                            </div>
 
-
-                    <!-- PRODUCT 2 -->
-                    <div id="product2" class="projects">
-
-                        <div class="project-card">
-                            <img src="images/project3.jpg">
-                            <h4>School Management System</h4>
-                            <p>Complete digital academic management platform.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
-                            </a>
-                            <br><br>
-                        </div>
-
-                        <div class="project-card">
-                            <img src="images/project4.jpg">
-                            <h4>Hospital Portal</h4>
-                            <p>Healthcare management system for clinics.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
-                            </a>
-                            <br><br>
-                        </div>
-
-                    </div>
-
-                    <!-- PRODUCT 3 -->
-                    <div id="product3" class="projects">
-
-                        <div class="project-card">
-                            <img src="images/project3.jpg">
-                            <h4>School Management System</h4>
-                            <p>Complete digital academic management platform.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
-                            </a>
-                            <br><br>
-                        </div>
-
-                        <div class="project-card">
-                            <img src="images/project4.jpg">
-                            <h4>Hospital Portal</h4>
-                            <p>Healthcare management system for clinics.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
-                            </a>
-                            <br><br>
-                        </div>
-
-                    </div>
-
-                    <!-- PRODUCT 4 -->
-                    <div id="product4" class="projects">
-
-                        <div class="project-card">
-                            <img src="images/WhatsApp Image 2026-03-18 at 7.22.31 AM.jpeg">
-                            <h4>Automated QR Attendance & Analytics Engine</h4>
+                            <h4>HAUT LOGISTICS</h4>
                             <p>
-                                This contactless attendance ecosystem is engineered to eliminate manual data entry errors and administrative bottlenecks within the Google Workspace environment. By deploying a QR-integrated ID system, the solution enables a cloud-based capture sequence upon entry that instantly synchronizes names, timestamps, and location data into a centralized Google Sheets master database.
-
-                                The workflow transforms legacy paper processes into a high-integrity, real-time reporting tool, providing management with immediate operational visibility and a secure, audit-ready digital trail.
-
-                                Technical Stack & Integration
-                                Logic & Automation: Google Apps Script / Google Forms
-
-                                Database Management: Google Sheets (Real-time Synchronization)
-
-                                Hardware Integration: QR-enabled Mobile Scanning
-
-                                UI/UX Design: Custom Identity Branding & Optimized Entry Forms</p>
-                            <a href="https://www.linkedin.com/posts/amuzukofimawuena_googleworkspace-processautomation-hrtech-activity-7364591067561713665-JYOw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW9yuQBDENMCd9KE_L4l6XTHndyOEMODQs" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Watch Video
-                            </a>
-                            <br><br>
+                                My logistics shipping platform makes order tracking simple and efficient. Administrators can securely upload and manage shipments with auto-generated tracking numbers. Customers receive real-time automatic email notifications with detailed tracking information. Experience seamless logistics with complete visibility from dispatch to delivery.
+                            </p>
+                            <a href="https://www.hautlogistics.com/" class="text-red-500 hover:text-red-600 font-medium p-4">View Project</a>
                         </div>
 
-                        <div class="project-card">
-                            <img src="images/WhatsApp Image 2026-03-18 at 7.41.58 AM.jpeg">
-                            <h4>Benevolence & Community Impact Management System</h4>
-                            <p>This is an enterprise solution built on Microsoft 365 that digitizes how community aid and resources are managed. It replaces manual processes with a centralized, automated system.
+                        <!-- PROJECT 4 -->
+                        <div class="project-card relative">
+                            <div class="overflow-hidden relative">
+                                <div id="slider4" class="flex transition-transform duration-500">
+                                    <img src="images/Venue _ Premium T-Shirts.png" class="w-full flex-shrink-0">
+                                    <img src="images/project4-2.png" class="w-full flex-shrink-0">
+                                </div>
 
-                                Applicants submit requests through a secure SharePoint portal, administrators manage and approve them using a dashboard with automated workflows (Power Automate), and leadership gets real-time insights into resource usage and impact.
+                                <button onclick="prevSlide('slider4', 2)" class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">&#10094;</button>
+                                <button onclick="nextSlide('slider4', 2)" class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full">&#10095;</button>
+                            </div>
 
-                                The system ensures:
-
-                                Automation of approvals and processes
-
-                                Centralized data management with SharePoint Lists
-
-                                Real-time inventory tracking
-
-                                Transparent, audit-ready records
-
-                                Overall, it creates a streamlined, efficient, and accountable platform for managing assistance and resource distribution.</p>
-                            <a href="https://www.linkedin.com/posts/amuzukofimawuena_churchtech-sharepoint-nonprofitmanagement-activity-7376279318731153408-K9ZU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW9yuQBDENMCd9KE_L4l6XTHndyOEMODQs" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Watch Video
-                            </a>
-                            <br><br>
-                        </div>
-                        <div class="project-card">
-                            <img src="images/WhatsApp Image 2026-03-18 at 7.54.19 AM.jpeg">
-                            <h4>Precision-Engineered Outbound Logistics: A Logic-Driven Staff Clearance & Gate Pass Ecosystem.</h4>
-                            <p>The Product Description
-                                This automated enterprise solution digitizes personnel movement by replacing manual logs with a high-integrity Microsoft 365 workflow, utilizing Power Apps for seamless request submission and Power Automate for real-time, multi-stage departmental approvals. By centralizing exit data within SharePoint, the system provides management with an audit-ready digital trail and live operational insights, significantly reducing administrative overhead while fortifying facility security and accountability.
-
-                                Technical Specifications
-                                Engine: Power Automate (Multi-Stage Logic)
-
-                                Interface: Mobile-Responsive Power Apps Portal
-
-                                Data Layer: SharePoint List Integration
-
-                                Security: Human-in-the-Loop Verification & Timestamped Auditing</p>
-                            <a href="https://www.linkedin.com/posts/amuzukofimawuena_microsoft365-powerplatform-digitaltransformation-activity-7438258240653770752-ur4i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW9yuQBDENMCd9KE_L4l6XTHndyOEMODQs" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Watch Video
-                            </a>
-                            <br><br>
+                            <h4>VENUE | PREMIUM T-SHIRTS</h4>
+                            <p>A modern e-commerce platform offering premium unisex apparel with intuitive shopping experience and secure Paystack integration. Features include dynamic product displays, multimedia content, and streamlined checkout. The comprehensive admin dashboard enables full inventory, order, and customer management. Designed for optimal performance with elegant aesthetics and powerful commerce functionality.</p>
+                            <a href="https://techbyfrancis.com/venue-clothing/" class="text-red-500 hover:text-red-600 font-medium p-4">View Project</a>
                         </div>
 
                     </div>
+                </div>
 
-                    <!-- PRODUCT 5 -->
-                    <div id="product5" class="projects">
+                <script>
+                    const sliders = {};
 
-                        <div class="project-card">
-                            <img src="images/project3.jpg">
-                            <h4>School Management System</h4>
-                            <p>Complete digital academic management platform.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
-                            </a>
-                            <br><br>
-                        </div>
+                    function nextSlide(id, total) {
+                        if (!sliders[id]) sliders[id] = 0;
+                        sliders[id] = (sliders[id] + 1) % total;
+                        document.getElementById(id).style.transform = `translateX(-${sliders[id] * 100}%)`;
+                    }
 
-                        <div class="project-card">
-                            <img src="images/project4.jpg">
-                            <h4>Hospital Portal</h4>
-                            <p>Healthcare management system for clinics.</p>
-                            <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                                Click to view
-                            </a>
-                            <br><br>
-                        </div>
+                    function prevSlide(id, total) {
+                        if (!sliders[id]) sliders[id] = 0;
+                        sliders[id] = (sliders[id] - 1 + total) % total;
+                        document.getElementById(id).style.transform = `translateX(-${sliders[id] * 100}%)`;
+                    }
+                </script>
+                <!-- PRODUCT 2 -->
+                <div id="product2" class="projects">
 
+                    <div class="project-card">
+                        <img src="images/project3.jpg">
+                        <h4>School Management System</h4>
+                        <p>Complete digital academic management platform.</p>
+                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Click to view
+                        </a>
+                        <br><br>
                     </div>
+
+                    <div class="project-card">
+                        <img src="images/project4.jpg">
+                        <h4>Hospital Portal</h4>
+                        <p>Healthcare management system for clinics.</p>
+                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Click to view
+                        </a>
+                        <br><br>
+                    </div>
+
+                </div>
+
+                <!-- PRODUCT 3 -->
+                <div id="product3" class="projects">
+
+                    <div class="project-card">
+                        <img src="images/project3.jpg">
+                        <h4>ccv</h4>
+                        <p>Complete digital academic management platform.</p>
+                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Click to view
+                        </a>
+                        <br><br>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="images/project4.jpg">
+                        <h4>Hospital Portal</h4>
+                        <p>Healthcare management system for clinics.</p>
+                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Click to view
+                        </a>
+                        <br><br>
+                    </div>
+
+                </div>
+
+                <!-- PRODUCT 4 -->
+                <div id="product4" class="projects">
+
+                    <div class="project-card">
+                        <img src="images/WhatsApp Image 2026-03-18 at 7.22.31 AM.jpeg">
+                        <h4>Automated QR Attendance & Analytics Engine</h4>
+                        <p>
+                            This contactless attendance ecosystem is engineered to eliminate manual data entry errors and administrative bottlenecks within the Google Workspace environment. By deploying a QR-integrated ID system, the solution enables a cloud-based capture sequence upon entry that instantly synchronizes names, timestamps, and location data into a centralized Google Sheets master database.
+
+                            The workflow transforms legacy paper processes into a high-integrity, real-time reporting tool, providing management with immediate operational visibility and a secure, audit-ready digital trail.
+
+                            Technical Stack & Integration
+                            Logic & Automation: Google Apps Script / Google Forms
+
+                            Database Management: Google Sheets (Real-time Synchronization)
+
+                            Hardware Integration: QR-enabled Mobile Scanning
+
+                            UI/UX Design: Custom Identity Branding & Optimized Entry Forms</p>
+                        <a href="https://www.linkedin.com/posts/amuzukofimawuena_googleworkspace-processautomation-hrtech-activity-7364591067561713665-JYOw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW9yuQBDENMCd9KE_L4l6XTHndyOEMODQs" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Watch Video
+                        </a>
+                        <br><br>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="images/WhatsApp Image 2026-03-18 at 7.41.58 AM.jpeg">
+                        <h4>Benevolence & Community Impact Management System</h4>
+                        <p>This is an enterprise solution built on Microsoft 365 that digitizes how community aid and resources are managed. It replaces manual processes with a centralized, automated system.
+
+                            Applicants submit requests through a secure SharePoint portal, administrators manage and approve them using a dashboard with automated workflows (Power Automate), and leadership gets real-time insights into resource usage and impact.
+
+                            The system ensures:
+
+                            Automation of approvals and processes
+
+                            Centralized data management with SharePoint Lists
+
+                            Real-time inventory tracking
+
+                            Transparent, audit-ready records
+
+                            Overall, it creates a streamlined, efficient, and accountable platform for managing assistance and resource distribution.</p>
+                        <a href="https://www.linkedin.com/posts/amuzukofimawuena_churchtech-sharepoint-nonprofitmanagement-activity-7376279318731153408-K9ZU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW9yuQBDENMCd9KE_L4l6XTHndyOEMODQs" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Watch Video
+                        </a>
+                        <br><br>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/WhatsApp Image 2026-03-18 at 7.54.19 AM.jpeg">
+                        <h4>Precision-Engineered Outbound Logistics: A Logic-Driven Staff Clearance & Gate Pass Ecosystem.</h4>
+                        <p>The Product Description
+                            This automated enterprise solution digitizes personnel movement by replacing manual logs with a high-integrity Microsoft 365 workflow, utilizing Power Apps for seamless request submission and Power Automate for real-time, multi-stage departmental approvals. By centralizing exit data within SharePoint, the system provides management with an audit-ready digital trail and live operational insights, significantly reducing administrative overhead while fortifying facility security and accountability.
+
+                            Technical Specifications
+                            Engine: Power Automate (Multi-Stage Logic)
+
+                            Interface: Mobile-Responsive Power Apps Portal
+
+                            Data Layer: SharePoint List Integration
+
+                            Security: Human-in-the-Loop Verification & Timestamped Auditing</p>
+                        <a href="https://www.linkedin.com/posts/amuzukofimawuena_microsoft365-powerplatform-digitaltransformation-activity-7438258240653770752-ur4i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW9yuQBDENMCd9KE_L4l6XTHndyOEMODQs" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Watch Video
+                        </a>
+                        <br><br>
+                    </div>
+
+                </div>
+
+                <!-- PRODUCT 5 -->
+                <div id="product5" class="projects">
+
+                    <div class="project-card">
+                        <img src="images/project3.jpg">
+                        <h4>School Management System</h4>
+                        <p>Complete digital academic management platform.</p>
+                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Click to view
+                        </a>
+                        <br><br>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="images/project4.jpg">
+                        <h4>Hospital Portal</h4>
+                        <p>Healthcare management system for clinics.</p>
+                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Click to view
+                        </a>
+                        <br><br>
+                    </div>
+
+                </div>
 
                 </div>
 

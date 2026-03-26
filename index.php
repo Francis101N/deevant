@@ -472,7 +472,7 @@ if ($count == 0) {
                             </svg>
                         </div>
                         <p class="font-semibold text-slate-800">
-                            Comprehensive Toolkit
+                            Complete Toolkit
                         </p>
                     </div>
 

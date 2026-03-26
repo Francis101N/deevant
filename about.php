@@ -179,7 +179,19 @@
                 <!-- Technology & Startups -->
                 <div class="flex flex-col items-center gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#1f9d9c]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L15 12l-5.25-5m-5.5 11a9 9 0 1111 0 9 9 0 01-11 0z" />
+                        <!-- Monitor -->
+                        <rect x="3" y="5" width="18" height="12" rx="1.5" stroke-width="2" />
+
+                        <!-- Stand -->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 17h8v2H8z" />
+
+                        <!-- Circuit nodes inside monitor -->
+                        <circle cx="8" cy="10" r="1" stroke-width="2" />
+                        <circle cx="12" cy="12" r="1" stroke-width="2" />
+                        <circle cx="16" cy="10" r="1" stroke-width="2" />
+
+                        <!-- Connecting lines (network/IT vibe) -->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10L12 12 16 10" />
                     </svg>
                     <p class="font-semibold">Technology & Startups</p>
                 </div>
@@ -187,7 +199,19 @@
                 <!-- Oil & Gas -->
                 <div class="flex flex-col items-center gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#1f9d9c]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18m9-9H3" />
+                        <!-- Pump body -->
+                        <rect x="3" y="3" width="10" height="18" rx="2" stroke-width="2" />
+
+                        <!-- Screen -->
+                        <rect x="5" y="5" width="6" height="4" stroke-width="2" />
+
+                        <!-- Hose -->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 7h2a2 2 0 012 2v5a2 2 0 002 2h1" />
+
+                        <!-- Nozzle -->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M18 16l2 2m0 0l-2 2m2-2h-3" />
                     </svg>
                     <p class="font-semibold">Oil & Gas</p>
                 </div>
@@ -195,7 +219,18 @@
                 <!-- Logistics & Transportation -->
                 <div class="flex flex-col items-center gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#1f9d9c]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h1l1 4h12l1-4h1m-1 0v4m-12-4v4m6-10v10" />
+                        <!-- Truck body -->
+                        <rect x="1" y="7" width="15" height="8" rx="1.5" stroke-width="2" />
+
+                        <!-- Truck cabin -->
+                        <rect x="16" y="9" width="6" height="6" rx="1" stroke-width="2" />
+
+                        <!-- Wheels -->
+                        <circle cx="5" cy="16" r="2" stroke-width="2" />
+                        <circle cx="18" cy="16" r="2" stroke-width="2" />
+
+                        <!-- Motion line (optional, for speed) -->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 11h-1" />
                     </svg>
                     <p class="font-semibold">Logistics & Transportation</p>
                 </div>
@@ -203,7 +238,20 @@
                 <!-- Hospitality & Hotels -->
                 <div class="flex flex-col items-center gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#1f9d9c]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18m-9-9h18" />
+                        <!-- Hotel building -->
+                        <rect x="3" y="6" width="18" height="14" rx="2" stroke-width="2" />
+
+                        <!-- Roof -->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l9-4 9 4" />
+
+                        <!-- Windows -->
+                        <rect x="6" y="10" width="3" height="3" stroke-width="2" />
+                        <rect x="15" y="10" width="3" height="3" stroke-width="2" />
+                        <rect x="6" y="15" width="3" height="3" stroke-width="2" />
+                        <rect x="15" y="15" width="3" height="3" stroke-width="2" />
+
+                        <!-- Door -->
+                        <rect x="11" y="15" width="2" height="5" stroke-width="2" />
                     </svg>
                     <p class="font-semibold">Hospitality & Hotels</p>
                 </div>
@@ -211,7 +259,14 @@
                 <!-- Healthcare & Medical Services -->
                 <div class="flex flex-col items-center gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#1f9d9c]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v8m-4-4h8" />
+                        <!-- Hospital building -->
+                        <rect x="4" y="6" width="16" height="14" rx="2" stroke-width="2" />
+
+                        <!-- Roof -->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6l8-4 8 4" />
+
+                        <!-- Hospital cross -->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v4m-2-2h4" />
                     </svg>
                     <p class="font-semibold">Healthcare & Medical Services</p>
                 </div>
@@ -233,22 +288,22 @@
         <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-8 text-center">
             <div>
                 <h3 class="text-4xl font-bold text-[#1f9d9c]">50+</h3>
-                <p class="text-[#1f9d9c]">Projects Delivered</p>
+                <p class="text-black font-semibold">Projects Delivered</p>
             </div>
 
             <div>
                 <h3 class="text-4xl font-bold text-[#1f9d9c]">30+</h3>
-                <p class="text-[#1f9d9c]">Happy Clients</p>
+                <p class="text-black font-semibold">Happy Clients</p>
             </div>
 
             <div>
                 <h3 class="text-4xl font-bold text-[#1f9d9c]">5+</h3>
-                <p class="text-[#1f9d9c]">Industries Served</p>
+                <p class="text-black font-semibold">Industries Served</p>
             </div>
 
             <div>
                 <h3 class="text-4xl font-bold text-[#1f9d9c]">100%</h3>
-                <p class="text-[#1f9d9c]">Client Satisfaction</p>
+                <p class="text-black font-semibold">Client Satisfaction</p>
             </div>
         </div>
     </section>

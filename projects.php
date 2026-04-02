@@ -319,7 +319,7 @@
                             <p>GaresPlace is a mobile app designed to simplify hotel dining and delivery services. It connects the frontend and backend through a dedicated PHP API for seamless interaction. Customers can browse menus of food, drinks, and desserts, view product details with pricing and images, and place orders for delivery to their rooms, the bar, or their homes. A favorites feature lets users save preferred items for quick access. On the management side, GaresPlace includes a secure admin dashboard. Hotel staff can track pending and delivered orders, assign riders, and monitor customer activities. The dashboard provides real-time analytics on active, completed, and unique orders. These insights help hotels make better decisions and improve service. By combining a user-friendly experience with powerful admin tools, GaresPlace enhances efficiency and convenience. It empowers hotels with full control over order management, customer feedback, and business performance.
 
                             </p>
-                            <a href="https://play.google.com/store/apps/details?id=com.kitchen.glares_place" class="text-red-500 hover:text-red-600 font-medium p-4">View & Download app</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.kitchen.glares_place" class="text-red-500 hover:text-red-600 font-medium p-4">View & Download app</a><br><br>
                         </div>
 
                         <!-- PROJECT 3 -->
@@ -355,9 +355,8 @@
 
                             <h4>VENUE | PREMIUM T-SHIRTS</h4>
                             <p>A modern e-commerce platform offering premium unisex apparel with intuitive shopping experience and secure Paystack integration. Features include dynamic product displays, multimedia content, and streamlined checkout. The comprehensive admin dashboard enables full inventory, order, and customer management. Designed for optimal performance with elegant aesthetics and powerful commerce functionality.</p>
-                            <a href="https://techbyfrancis.com/venue-clothing/" class="text-red-500 hover:text-red-600 font-medium p-4">View Project</a>
+                            <a href="https://techbyfrancis.com/venue-clothing/" class="text-red-500 hover:text-red-600 font-medium p-4">View Project</a><br><br>
                         </div>
-
                     </div>
                 </div>
 

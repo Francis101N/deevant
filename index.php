@@ -341,95 +341,84 @@ if ($count == 0) {
     <section class="bg-gray-50 py-20" id="services">
         <div class="max-w-7xl mx-auto px-6 text-center">
 
-            <!-- Section Header -->
             <h3 class="text-3xl md:text-4xl font-bold mb-4 text-[#1f9d9c] font-['Sacramento']">
                 Our Services
             </h3>
             <p class="max-w-3xl mx-auto mb-12 text-lg leading-relaxed">
                 From robust infrastructure to seamless cloud integration, our expertise spans the full technological
-                spectrum. We don't just deploy tools; we architect ecosystems that simplify complex workflows and turn
-                technical debt into a competitive engine. By prioritizing agile deployment and human-centric design, we
-                ensure your team spends less time troubleshooting and more time innovating.
+                spectrum. We architect ecosystems that simplify complex workflows and turn technical debt into a competitive engine.
             </p>
 
-            <!-- Services Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
-                <!-- Service 1 -->
-                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                    <img src="images/services1.jpeg" alt="Web and Mobile Development"
-                        class="w-full h-40 object-cover rounded-md mb-4">
-                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Web & Mobile
-                        Development
-                    </h4>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        We create bespoke web and mobile solutions that extend your brand, combining intuitive design
-                        with scalable, high-performance technology to solve your unique challenges and drive growth.
+                <div class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 flex flex-col text-left">
+                    <img src="images/services1.jpeg" alt="Web and Mobile Development" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Web & Mobile Development</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        We create bespoke web and mobile solutions that extend your brand, combining intuitive design with scalable, high-performance technology.
                     </p>
+                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                        Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </a>
                 </div>
 
-                <!-- Service 2 -->
-                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                    <img src="images/services2.jpeg" alt="Visual Design"
-                        class="w-full h-40 object-cover rounded-md mb-4">
+                <div class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 flex flex-col text-left">
+                    <img src="images/services2.jpeg" alt="Visual Design" class="w-full h-40 object-cover rounded-md mb-4">
                     <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Visual Design</h4>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        We craft cohesive brand identities and visual designs that combine elegance with strategy,
-                        making your brand memorable, intuitive, and impactful across all touchpoints.
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        We craft cohesive brand identities and visual designs that combine elegance with strategy, making your brand memorable and intuitive.
                     </p>
+                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                        Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </a>
                 </div>
 
-                <!-- Service 3 -->
-                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                    <img src="images/services3.jpeg" alt="Dedicated Support Team"
-                        class="w-full h-40 object-cover rounded-md mb-4">
-                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Dedicated Support
-                        Team</h4>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        We provide tailored, proactive tech support that integrates with your team, ensuring seamless
-                        operations, rapid troubleshooting, and optimized performance as your business grows.
+                <div class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 flex flex-col text-left">
+                    <img src="images/services3.jpeg" alt="Dedicated Support Team" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Dedicated Support Team</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        We provide tailored, proactive tech support that integrates with your team, ensuring rapid troubleshooting and optimized performance.
                     </p>
+                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                        Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </a>
                 </div>
 
-                <!-- Service 4 -->
-                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300">
-                    <img src="images/services4.jpeg" alt="Advanced Automation"
-                        class="w-full h-40 object-cover rounded-md mb-4">
-                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Advanced Automation
-                    </h4>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        We design intelligent automation and AI-driven workflows that streamline operations, eliminate
-                        manual tasks, and free your team to focus on strategic growth.
+                <div class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 flex flex-col text-left">
+                    <img src="images/services4.jpeg" alt="Advanced Automation" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Advanced Automation</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        We design intelligent automation and AI-driven workflows that streamline operations and free your team for strategic growth.
                     </p>
+                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                        Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </a>
                 </div>
 
             </div>
 
-            <!-- Centered last two services -->
             <div class="flex flex-col md:flex-row justify-center gap-10 mt-10">
 
-                <!-- Service 5 -->
-                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 w-full md:w-80">
-                    <img src="images/services5.jpeg" alt="Tailored Technology Workflows"
-                        class="w-full h-40 object-cover rounded-md mb-4">
-                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Tailored Technology
-                        Workflows</h4>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        We create bespoke technology workflows that streamline operations, remove bottlenecks, and
-                        provide an agile, high-efficiency foundation for growth and innovation.
+                <div class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 w-full md:w-80 flex flex-col text-left">
+                    <img src="images/services5.jpeg" alt="Tailored Technology Workflows" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Tailored Workflows</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        We create bespoke technology workflows that remove bottlenecks and provide an agile foundation for innovation.
                     </p>
+                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                        Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </a>
                 </div>
 
-                <!-- Service 6 -->
-                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 w-full md:w-80">
-                    <img src="images/services6.jpeg" alt="Integrated Solutions"
-                        class="w-full h-40 object-cover rounded-md mb-4">
-                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Integrated Solutions
-                    </h4>
-                    <p class="text-gray-600 text-sm leading-relaxed">
-                        We build integrated digital ecosystems that unify platforms and tools, streamline data flow, and
-                        create a cohesive, scalable foundation for your business.
+                <div class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 w-full md:w-80 flex flex-col text-left">
+                    <img src="images/services6.jpeg" alt="Integrated Solutions" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Integrated Solutions</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        We unify <b>Networking</b>, <b>Convergence</b>, and <b>Collaboration</b> into secure, scalable ecosystems. Our expertise spans <b>IS Consulting</b>, <b>Next-Gen Security</b>, and <b>Procurement</b> . As an <b>Authorized Service Center</b> we provide <b>SLA-backed maintenance</b> and <b></b> to ensure high-performance business continuity.
                     </p>
+                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                        Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </a>
                 </div>
 
             </div>

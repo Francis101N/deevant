@@ -275,8 +275,6 @@
                         <button class="filter-btn" onclick="showProjects(2)">Visual Design</button>
                         <button class="filter-btn" onclick="showProjects(3)">CCTV installation</button>
                         <button class="filter-btn" onclick="showProjects(4)">Advanced Automation</button>
-                        <button class="filter-btn" onclick="showProjects(5)">Tailored Technology Workflows</button>
-
                     </div>
                 </div>
 
@@ -495,30 +493,6 @@
 
                 </div>
 
-                <!-- PRODUCT 5 -->
-                <div id="product5" class="projects">
-
-                    <div class="project-card">
-                        <img src="images/project3.jpg">
-                        <h4>School Management System</h4>
-                        <p>Complete digital academic management platform.</p>
-                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                            Click to view
-                        </a>
-                        <br><br>
-                    </div>
-
-                    <div class="project-card">
-                        <img src="images/project4.jpg">
-                        <h4>Hospital Portal</h4>
-                        <p>Healthcare management system for clinics.</p>
-                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                            Click to view
-                        </a>
-                        <br><br>
-                    </div>
-
-                </div>
 
                 </div>
 

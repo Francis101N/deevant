@@ -353,11 +353,11 @@ if ($count == 0) {
 
                 <div class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 flex flex-col text-left">
                     <img src="images/services1.jpeg" alt="Web and Mobile Development" class="w-full h-40 object-cover rounded-md mb-4">
-                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Web & Mobile Development</h4>
+                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Web & Mobile App Development</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-4">
                         We create bespoke web and mobile solutions that extend your brand, combining intuitive design with scalable, high-performance technology.
                     </p>
-                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                    <a href="web&app-dev" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
                         Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
                     </a>
                 </div>
@@ -368,7 +368,7 @@ if ($count == 0) {
                     <p class="text-gray-600 text-sm leading-relaxed mb-4">
                         We craft cohesive brand identities and visual designs that combine elegance with strategy, making your brand memorable and intuitive.
                     </p>
-                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                    <a href="visual-design" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
                         Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
                     </a>
                 </div>
@@ -379,7 +379,7 @@ if ($count == 0) {
                     <p class="text-gray-600 text-sm leading-relaxed mb-4">
                         We provide tailored, proactive tech support that integrates with your team, ensuring rapid troubleshooting and optimized performance.
                     </p>
-                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                    <a href="support-team" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
                         Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
                     </a>
                 </div>
@@ -390,7 +390,7 @@ if ($count == 0) {
                     <p class="text-gray-600 text-sm leading-relaxed mb-4">
                         We design intelligent automation and AI-driven workflows that streamline operations and free your team for strategic growth.
                     </p>
-                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                    <a href="automation" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
                         Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
                     </a>
                 </div>
@@ -405,7 +405,7 @@ if ($count == 0) {
                     <p class="text-gray-600 text-sm leading-relaxed mb-4">
                         We create bespoke technology workflows that remove bottlenecks and provide an agile foundation for innovation.
                     </p>
-                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                    <a href="tailored-workflows" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
                         Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
                     </a>
                 </div>
@@ -416,7 +416,7 @@ if ($count == 0) {
                     <p class="text-gray-600 text-sm leading-relaxed mb-4">
                         We unify <b>Networking</b>, <b>Convergence</b>, and <b>Collaboration</b> into secure, scalable ecosystems. Our expertise spans <b>IS Consulting</b>, <b>Next-Gen Security</b>, and <b>Procurement</b> . As an <b>Authorized Service Center</b> we provide <b>SLA-backed maintenance</b> and <b></b> to ensure high-performance business continuity.
                     </p>
-                    <a href="#" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                    <a href="integrated-solutions" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
                         Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
                     </a>
                 </div>

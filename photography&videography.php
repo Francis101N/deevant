@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Automation | Deevant</title>
+    <title>Photography & Videography | Deevant</title>
     <link rel="icon" href="images/deevant-icon2.jpeg">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -79,13 +79,13 @@
             <!-- Heading -->
             <div class="text-center mb-16 max-w-3xl mx-auto px-4">
                 <h2 class="text-3xl sm:text-4xl font-bold font-['Sacramento'] text-[#1f9d9c] inline-block">
-                    Advanced Automation
+                    Photography & Videography
                 </h2>
 
                 <div class="w-24 h-1 bg-gradient-to-r from-[#1f9d9c] to-teal-400 mx-auto mt-4 rounded-full"></div>
 
                 <p class="mt-6 text-gray-600 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
-                    Technical friction shouldn’t slow your business. Our Dedicated Support Team acts as a seamless extension of your operations, proactively maintaining systems, optimizing workflows, and ensuring your technical infrastructure drives growth.
+                    We transform moments into <span class="font-semibold">powerful visual stories</span> through high-end photography and cinematic videography. From corporate productions and brand storytelling to events and industrial coverage, we capture visuals that are not just seen but felt, delivering content that elevates your brand identity and audience engagement.
                 </p>
             </div>
 
@@ -93,78 +93,109 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/automation.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/Recruitment.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/automation2.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/Recruitment2.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/automation3.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/Recruitment3.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/automation4.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/Recruitment4.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
-
             </div>
         </section>
 
 
-        <!-- INTELLIGENT AUTOMATION & DIGITAL WORKFORCE -->
+        <!-- PHOTOGRAPHY & VIDEOGRAPHY SERVICES -->
         <section class="py-24 px-6 sm:px-12 lg:px-24 bg-white">
 
             <div class="text-center mb-16">
                 <h2 class="text-4xl sm:text-5xl font-bold text-[#1f9d9c]">
-                    Architecting Intelligent Automation for Scalable Growth
+                    Explore Our Photography & Videography Services
                 </h2>
                 <div class="w-24 h-1 bg-gradient-to-r from-[#1f9d9c] to-teal-400 mx-auto mt-4 rounded-full"></div>
             </div>
 
-            <p class="text-center max-w-4xl mx-auto text-gray-600 mb-16 leading-relaxed text-lg">
-                Manual repetition is the silent constraint on productivity and a major driver of operational inefficiency.
-                We go beyond basic automation to design intelligent ecosystems powered by AI, machine learning, and RPA
-                transforming your workflows into a synchronized, high-performance engine of growth.
-            </p>
-
             <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-700">
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Autonomous Process Orchestration:</strong> End-to-end automation across your entire tech stack—from onboarding to financial reconciliation—ensuring precision, consistency, and full auditability.
+                    <strong>Cinematic Brand Storytelling:</strong> We craft visually compelling narratives that capture your brand identity through high-end photography and film production.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>AI-Driven Cognitive Workflows:</strong> Custom AI agents and LLMs handle advanced tasks such as sentiment analysis and customer intent mapping, enabling continuous, personalized engagement at scale.
+                    <strong>Corporate & Event Coverage:</strong> Professional coverage of corporate events, conferences, celebrations, and brand activations with a polished cinematic finish.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Predictive Resource Intelligence:</strong> Data-driven forecasting aligns your infrastructure and workforce with real-time demand, eliminating waste and enabling smart scaling.
+                    <strong>Commercial Photography:</strong> High-quality imagery for products, services, and marketing campaigns designed to elevate brand perception and engagement.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Strategic Governance Framework:</strong> Secure, compliant automation with embedded human-in-the-loop controls to ensure critical decisions remain accountable and aligned with business ethics.
+                    <strong>Drone & Aerial Cinematography:</strong> Stunning aerial visuals that add depth, scale, and cinematic perspective to your visual storytelling.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Agile Control Systems:</strong> Intuitive dashboards empower your team to make rapid, no-code adjustments, maintaining flexibility without compromising performance.
+                    <strong>Post-Production Excellence:</strong> Expert editing, color grading, and visual refinement that ensure every frame delivers maximum impact.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Scalable Digital Workforce:</strong> Replace manual overhead with a precision-engineered system that operates with consistency, speed, and limitless scalability.
+                    <strong>Visual Identity Creation:</strong> We help brands build a consistent visual language that communicates professionalism, trust, and emotional connection.
                 </li>
 
             </ul>
+        </section>
 
-            <div class="text-center mt-16">
-                <p class="text-gray-600 text-lg mb-6">
-                    Transition from manual operations to architected intelligence where efficiency meets innovation.
+        <!-- PREMIUM COPY -->
+        <section class="py-24 px-6 sm:px-12 lg:px-24 bg-gray-50 text-gray-800">
+
+            <div class="max-w-4xl mx-auto space-y-10">
+
+                <!-- Intro -->
+                <p class="text-lg sm:text-xl leading-relaxed">
+                    Powerful visuals are the foundation of modern storytelling. We deliver a
+                    <span class="font-semibold">cinematic photography and videography experience</span> designed to capture emotion, elevate perception, and bring your brand or event to life through compelling visual narratives.
                 </p>
-                <p class="text-[#1f9d9c] font-semibold text-lg">
-                    Let’s identify the friction points in your operations and map your path to full automation.
+
+                <p class="text-lg sm:text-xl leading-relaxed">
+                    Our creative process is built around precision, storytelling, and high-impact visual execution:
                 </p>
+
+                <!-- Features List -->
+                <ul class="list-disc pl-5 space-y-4 text-lg sm:text-xl leading-relaxed text-gray-700">
+
+                    <li>
+                        <strong>Visual Story Crafting:</strong> We design each shoot with intentional storytelling, ensuring every frame communicates meaning, emotion, and purpose.
+                    </li>
+
+                    <li>
+                        <strong>High-End Production Quality:</strong> Using professional-grade equipment and cinematic techniques to deliver sharp, polished, and visually striking content.
+                    </li>
+
+                    <li>
+                        <strong>Event & Brand Coverage:</strong> From corporate functions to personal milestones, we capture moments with clarity, elegance, and authenticity.
+                    </li>
+
+                    <li>
+                        <strong>Creative Direction & Composition:</strong> Every project is guided by strong visual planning, ensuring consistency, balance, and artistic excellence.
+                    </li>
+
+                    <li>
+                        <strong>Post-Production Refinement:</strong> Expert editing and color grading that transform raw footage into immersive, high-impact visual content.
+                    </li>
+
+                </ul>
+
+                <!-- Closing Statement -->
+                <p class="text-lg sm:text-xl leading-relaxed">
+                    The result is more than just visuals it is a powerful visual identity that connects emotionally, communicates clearly, and leaves a lasting impression.
+                </p>
+
             </div>
-
         </section>
 
     </section>

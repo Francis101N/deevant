@@ -317,5 +317,75 @@
         });
     });
 </script>
+<!-- Particle JS -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script>
+    tsParticles.load("particles-bg", {
+        fpsLimit: 60,
+        background: {
+            color: "transparent"
+        },
+        particles: {
+            number: {
+                value: 60,
+                density: {
+                    enable: true,
+                    area: 800
+                }
+            },
+            color: {
+                value: "#00cec9"
+            },
+            shape: {
+                type: "circle"
+            },
+            opacity: {
+                value: 0.3,
+                random: true
+            },
+            size: {
+                value: {
+                    min: 2,
+                    max: 6
+                },
+                random: true
+            },
+            move: {
+                enable: true,
+                speed: 1.5,
+                direction: "none",
+                outModes: "out"
+            },
+            links: {
+                enable: true,
+                distance: 120,
+                color: "#FFD700",
+                opacity: 0.2,
+                width: 1
+            }
+        },
+        interactivity: {
+            events: {
+                onHover: {
+                    enable: true,
+                    mode: "repulse"
+                },
+                onClick: {
+                    enable: true,
+                    mode: "push"
+                }
+            },
+            modes: {
+                repulse: {
+                    distance: 120
+                },
+                push: {
+                    quantity: 4
+                }
+            }
+        },
+        detectRetina: true
+    });
+</script>
 
 </html>

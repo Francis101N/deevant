@@ -166,7 +166,7 @@
 
                 <!-- Intro -->
                 <p class="text-lg sm:text-xl leading-relaxed">
-                    Technical friction is not just an inconvenience—it is a direct drain on your bottom line. We move beyond the reactive <span class="font-semibold">"help desk"</span> model to provide a <span class="font-semibold">Dedicated Systems Integration and Support Team</span> that acts as a seamless extension of your internal operations. We don't just fix problems; we engineer your technical health as a <span class="font-semibold">strategic driver of growth</span>.
+                    Technical friction is not just an inconvenience it is a direct drain on your bottom line. We move beyond the reactive <span class="font-semibold">"help desk"</span> model to provide a <span class="font-semibold">Dedicated Systems Integration and Support Team</span> that acts as a seamless extension of your internal operations. We don't just fix problems; we engineer your technical health as a <span class="font-semibold">strategic driver of growth</span>.
                 </p>
 
                 <p class="text-lg sm:text-xl leading-relaxed">
@@ -188,7 +188,7 @@
                         <strong>High-Availability Protocols:</strong> Whether it is routine configuration, software auditing, or high-pressure emergency interventions, our tiered support structure ensures your business operations never skip a beat.
                     </li>
                     <li>
-                        <strong>Continuous Optimization:</strong> We rigorously eliminate technical debt, perform scheduled security patching, and refine automated workflows so your technology always supports—and never inhibits—your strategic objectives.
+                        <strong>Continuous Optimization:</strong> We rigorously eliminate technical debt, perform scheduled security patching, and refine automated workflows so your technology always supports and never inhibits your strategic objectives.
                     </li>
                 </ul>
 
@@ -299,6 +299,76 @@
             top: 0,
             behavior: "smooth"
         });
+    });
+</script>
+<!-- Particle JS -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script>
+    tsParticles.load("particles-bg", {
+        fpsLimit: 60,
+        background: {
+            color: "transparent"
+        },
+        particles: {
+            number: {
+                value: 60,
+                density: {
+                    enable: true,
+                    area: 800
+                }
+            },
+            color: {
+                value: "#00cec9"
+            },
+            shape: {
+                type: "circle"
+            },
+            opacity: {
+                value: 0.3,
+                random: true
+            },
+            size: {
+                value: {
+                    min: 2,
+                    max: 6
+                },
+                random: true
+            },
+            move: {
+                enable: true,
+                speed: 1.5,
+                direction: "none",
+                outModes: "out"
+            },
+            links: {
+                enable: true,
+                distance: 120,
+                color: "#FFD700",
+                opacity: 0.2,
+                width: 1
+            }
+        },
+        interactivity: {
+            events: {
+                onHover: {
+                    enable: true,
+                    mode: "repulse"
+                },
+                onClick: {
+                    enable: true,
+                    mode: "push"
+                }
+            },
+            modes: {
+                repulse: {
+                    distance: 120
+                },
+                push: {
+                    quantity: 4
+                }
+            }
+        },
+        detectRetina: true
     });
 </script>
 

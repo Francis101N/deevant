@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Automation | Deevant</title>
+    <title>Recuritment & It-Training | Deevant</title>
     <link rel="icon" href="images/deevant-icon2.jpeg">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -79,13 +79,13 @@
             <!-- Heading -->
             <div class="text-center mb-16 max-w-3xl mx-auto px-4">
                 <h2 class="text-3xl sm:text-4xl font-bold font-['Sacramento'] text-[#1f9d9c] inline-block">
-                    Advanced Automation
+                    Recuritment & It-Training
                 </h2>
 
                 <div class="w-24 h-1 bg-gradient-to-r from-[#1f9d9c] to-teal-400 mx-auto mt-4 rounded-full"></div>
 
                 <p class="mt-6 text-gray-600 text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
-                    Technical friction shouldn’t slow your business. Our Dedicated Support Team acts as a seamless extension of your operations, proactively maintaining systems, optimizing workflows, and ensuring your technical infrastructure drives growth.
+                    Talent gaps shouldn’t slow your business. Our recruitment and IT training solutions act as a seamless extension of your growth strategy sourcing top-tier professionals, upskilling teams, and equipping your workforce with the technical expertise needed to perform, adapt, and lead in a rapidly evolving digital landscape.
                 </p>
             </div>
 
@@ -93,78 +93,109 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/automation.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/Recruitment.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/automation2.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/Recruitment2.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/automation3.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/Recruitment3.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/automation4.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/Recruitment4.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
-
             </div>
         </section>
 
 
-        <!-- INTELLIGENT AUTOMATION & DIGITAL WORKFORCE -->
+        <!-- RECRUITMENT & IT TRAINING SERVICES -->
         <section class="py-24 px-6 sm:px-12 lg:px-24 bg-white">
 
             <div class="text-center mb-16">
                 <h2 class="text-4xl sm:text-5xl font-bold text-[#1f9d9c]">
-                    Architecting Intelligent Automation for Scalable Growth
+                    Explore Our Recruitment & IT Training Solutions
                 </h2>
                 <div class="w-24 h-1 bg-gradient-to-r from-[#1f9d9c] to-teal-400 mx-auto mt-4 rounded-full"></div>
             </div>
 
-            <p class="text-center max-w-4xl mx-auto text-gray-600 mb-16 leading-relaxed text-lg">
-                Manual repetition is the silent constraint on productivity and a major driver of operational inefficiency.
-                We go beyond basic automation to design intelligent ecosystems powered by AI, machine learning, and RPA
-                transforming your workflows into a synchronized, high-performance engine of growth.
-            </p>
-
             <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-700">
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Autonomous Process Orchestration:</strong> End-to-end automation across your entire tech stack—from onboarding to financial reconciliation—ensuring precision, consistency, and full auditability.
+                    <strong>Strategic Talent Acquisition:</strong> We identify and place high-performing professionals aligned with your business goals and technical requirements.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>AI-Driven Cognitive Workflows:</strong> Custom AI agents and LLMs handle advanced tasks such as sentiment analysis and customer intent mapping, enabling continuous, personalized engagement at scale.
+                    <strong>Hands-On Technical Training:</strong> Practical, industry-focused training in software development, system administration, and digital automation.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Predictive Resource Intelligence:</strong> Data-driven forecasting aligns your infrastructure and workforce with real-time demand, eliminating waste and enabling smart scaling.
+                    <strong>Customized Learning Paths:</strong> Tailored training programs designed to match your organization’s structure, goals, and evolving tech needs.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Strategic Governance Framework:</strong> Secure, compliant automation with embedded human-in-the-loop controls to ensure critical decisions remain accountable and aligned with business ethics.
+                    <strong>Workforce Upskilling:</strong> Continuous development programs that enhance team capabilities and keep your workforce competitive.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Agile Control Systems:</strong> Intuitive dashboards empower your team to make rapid, no-code adjustments, maintaining flexibility without compromising performance.
+                    <strong>Certification & Career Readiness:</strong> From foundational IT literacy to advanced certifications, we prepare talent for real-world performance.
                 </li>
 
                 <li class="p-6 bg-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition duration-300">
-                    <strong>Scalable Digital Workforce:</strong> Replace manual overhead with a precision-engineered system that operates with consistency, speed, and limitless scalability.
+                    <strong>Future-Ready Teams:</strong> We build agile, skilled teams equipped to adapt, innovate, and lead in a fast-changing digital environment.
                 </li>
 
             </ul>
+        </section>
 
-            <div class="text-center mt-16">
-                <p class="text-gray-600 text-lg mb-6">
-                    Transition from manual operations to architected intelligence where efficiency meets innovation.
+        <!-- PREMIUM COPY -->
+        <section class="py-24 px-6 sm:px-12 lg:px-24 bg-gray-50 text-gray-800">
+
+            <div class="max-w-4xl mx-auto space-y-10">
+
+                <!-- Intro -->
+                <p class="text-lg sm:text-xl leading-relaxed">
+                    Building a competitive organization starts with the right people and the right skills. We deliver a
+                    <span class="font-semibold">dual-focused solution in recruitment and IT training</span> designed to strengthen your workforce from the ground up. By combining talent sourcing with structured technical development, we help organizations close skill gaps and unlock higher productivity.
                 </p>
-                <p class="text-[#1f9d9c] font-semibold text-lg">
-                    Let’s identify the friction points in your operations and map your path to full automation.
+
+                <p class="text-lg sm:text-xl leading-relaxed">
+                    Our approach is built around practical capability development and measurable workforce improvement:
                 </p>
+
+                <!-- Features List -->
+                <ul class="list-disc pl-5 space-y-4 text-lg sm:text-xl leading-relaxed text-gray-700">
+
+                    <li>
+                        <strong>Precision Talent Matching:</strong> We connect you with candidates whose skills, mindset, and experience align with your operational and technical requirements.
+                    </li>
+
+                    <li>
+                        <strong>Industry-Driven Training Programs:</strong> We deliver structured learning experiences focused on real-world tools, systems, and modern development practices.
+                    </li>
+
+                    <li>
+                        <strong>Role-Based Skill Development:</strong> Training is tailored to specific job functions, ensuring employees gain immediately applicable, job-ready expertise.
+                    </li>
+
+                    <li>
+                        <strong>Scalable Workforce Development:</strong> Whether onboarding new hires or upgrading existing teams, we design systems that grow with your organization.
+                    </li>
+
+                    <li>
+                        <strong>Competency Validation:</strong> We assess progress through practical evaluations, ensuring every trainee meets defined performance standards.
+                    </li>
+
+                </ul>
+
+                <!-- Closing Statement -->
+                <p class="text-lg sm:text-xl leading-relaxed">
+                    The result is a workforce that is not only qualified but strategically aligned with your business goals capable, adaptable, and ready to deliver consistent value.
+                </p>
+
             </div>
-
         </section>
 
     </section>

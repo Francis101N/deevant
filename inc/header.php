@@ -54,20 +54,37 @@
 
           <!-- Mobile Menu -->
           <div id="mobileMenu" class="hidden md:hidden pb-4 space-y-1">
-              <a href="./" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">Home</a>
-              <a href="about"
-                  class="text-gray-700 px-4 py-4 hover:text-[color:var(--deevant-accent)] transition font-medium">
-                  About us
-              </a>
-              <a href="index#services" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">Our Services</a>
-              <a href="projects" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">Products</a>
-              <a href="team" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">Our Team</a>
 
-              <a href="#contact" class="block text-center mt-2 px-4 py-2 rounded-lg text-white
-                bg-[color:var(--deevant-primary)]
-                hover:bg-[color:var(--deevant-accent)]">
+              <a href="./"
+                  class="block px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-lg transition">
+                  Home
+              </a>
+
+              <a href="about"
+                  class="block px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-[color:var(--deevant-accent)] rounded-lg transition font-medium">
+                  About Us
+              </a>
+
+              <a href="index#services"
+                  class="block px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-lg transition">
+                  Our Services
+              </a>
+
+              <a href="projects"
+                  class="block px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-lg transition">
+                  Products
+              </a>
+
+              <a href="team"
+                  class="block px-4 py-3 text-gray-700 hover:bg-gray-100 rounded-lg transition">
+                  Our Team
+              </a>
+
+              <a href="#contact"
+                  class="block text-center mt-2 px-4 py-3 rounded-lg text-white bg-[color:var(--deevant-primary)] hover:bg-[color:var(--deevant-accent)] transition">
                   Contact Us
               </a>
+
           </div>
 
       </nav>

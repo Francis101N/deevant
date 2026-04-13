@@ -272,9 +272,8 @@
                     <div class="product-buttons">
 
                         <button class="filter-btn active" onclick="showProjects(1)">Web & Mobile Development</button>
-                        <button class="filter-btn" onclick="showProjects(2)">Visual Design</button>
-                        <button class="filter-btn" onclick="showProjects(3)">CCTV installation</button>
-                        <button class="filter-btn" onclick="showProjects(4)">Advanced Automation</button>
+                        <button class="filter-btn" onclick="showProjects(2)">CCTV installation</button>
+                        <button class="filter-btn" onclick="showProjects(3)">Advanced Automation</button>
                     </div>
                 </div>
 
@@ -373,33 +372,9 @@
                         document.getElementById(id).style.transform = `translateX(-${sliders[id] * 100}%)`;
                     }
                 </script>
+
                 <!-- PRODUCT 2 -->
                 <div id="product2" class="projects">
-
-                    <div class="project-card">
-                        <img src="images/project3.jpg">
-                        <h4>School Management System</h4>
-                        <p>Complete digital academic management platform.</p>
-                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                            Click to view
-                        </a>
-                        <br><br>
-                    </div>
-
-                    <div class="project-card">
-                        <img src="images/project4.jpg">
-                        <h4>Hospital Portal</h4>
-                        <p>Healthcare management system for clinics.</p>
-                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                            Click to view
-                        </a>
-                        <br><br>
-                    </div>
-
-                </div>
-
-                <!-- PRODUCT 3 -->
-                <div id="product3" class="projects">
 
                     <div class="project-card">
                         <img src="images/project3.jpg">
@@ -424,7 +399,7 @@
                 </div>
 
                 <!-- PRODUCT 4 -->
-                <div id="product4" class="projects">
+                <div id="product3" class="projects">
 
                     <div class="project-card">
                         <img src="images/WhatsApp Image 2026-03-18 at 7.22.31 AM.jpeg">
@@ -629,6 +604,76 @@
         buttons[num - 1].classList.add("active");
 
     }
+</script>
+<!-- Particle JS -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script>
+    tsParticles.load("particles-bg", {
+        fpsLimit: 60,
+        background: {
+            color: "transparent"
+        },
+        particles: {
+            number: {
+                value: 60,
+                density: {
+                    enable: true,
+                    area: 800
+                }
+            },
+            color: {
+                value: "#00cec9"
+            },
+            shape: {
+                type: "circle"
+            },
+            opacity: {
+                value: 0.3,
+                random: true
+            },
+            size: {
+                value: {
+                    min: 2,
+                    max: 6
+                },
+                random: true
+            },
+            move: {
+                enable: true,
+                speed: 1.5,
+                direction: "none",
+                outModes: "out"
+            },
+            links: {
+                enable: true,
+                distance: 120,
+                color: "#FFD700",
+                opacity: 0.2,
+                width: 1
+            }
+        },
+        interactivity: {
+            events: {
+                onHover: {
+                    enable: true,
+                    mode: "repulse"
+                },
+                onClick: {
+                    enable: true,
+                    mode: "push"
+                }
+            },
+            modes: {
+                repulse: {
+                    distance: 120
+                },
+                push: {
+                    quantity: 4
+                }
+            }
+        },
+        detectRetina: true
+    });
 </script>
 
 </html>

@@ -236,13 +236,12 @@ if ($count == 0) {
                     </h2>
 
                     <p class="text-gray-600 text-lg leading-relaxed">
-                        We deliver cutting-edge technology solutions that transform businesses combining web and mobile
-                        app development, UI/UX and graphic design, intelligent automation with Power Automate and Google
-                        tools, strategic social media management, and reliable technical support to drive efficiency,
-                        growth, and digital excellence.
+                        <b>DRIVING DIGITAL EXCELLENCE</b> <br><br>
+
+                        We deliver cutting-edge technology solutions that transform businesses. Our services integrate <b>web</b> and <b>mobile development</b>, <b>UI/UX design</b>, and <b>intelligent automation</b> with professional <b>photography</b> and <b>cinematography</b>. From <b>server room setups</b> and <b>internet installations</b> to <b>IT training</b>, <b>recruitement</b> and <b>technical support</b>, we provide the <b>strategic infrastructure</b> and <b>creative media</b> needed to drive efficiency, growth, and digital innovation.
                     </p>
                     <br><br>
-                    <a href="#get-started" class="inline-block px-6 py-3 bg-[#6e6e6e] text-white font-medium rounded-lg
+                    <a href="#contact" class="inline-block px-6 py-3 bg-[#6e6e6e] text-white font-medium rounded-lg
                     transition duration-300 hover:bg-[#1f9d9c] hover:text-white">
                         Get Started
                     </a>
@@ -260,10 +259,9 @@ if ($count == 0) {
         </div>
     </section>
 
-    <section class="bg-gray-50 py-20">
+    <!-- <section class="bg-gray-50 py-20">
         <div class="max-w-7xl mx-auto px-6">
 
-            <!-- Section Title -->
             <div class="text-center mb-12">
                 <h3 class="text-3xl md:text-4xl font-bold text-gray-900 text-[#1f9d9c] font-['Sacramento']"
                     style="color:#1f9d9c;">
@@ -275,10 +273,8 @@ if ($count == 0) {
                 </p>
             </div>
 
-            <!-- Partners Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
 
-                <!-- Partner 1 -->
                 <div
                     class="bg-white rounded-xl shadow-sm border border-gray-200 py-8 text-center transition duration-300 hover:bg-[#1f9d9c] hover:text-white">
                     <h4 class="text-lg font-semibold">
@@ -286,7 +282,6 @@ if ($count == 0) {
                     </h4>
                 </div>
 
-                <!-- Partner 2 -->
                 <div
                     class="bg-white rounded-xl shadow-sm border border-gray-200 py-8 text-center transition duration-300 hover:bg-[#1f9d9c] hover:text-white">
                     <h4 class="text-lg font-semibold">
@@ -294,7 +289,6 @@ if ($count == 0) {
                     </h4>
                 </div>
 
-                <!-- Partner 3 -->
                 <div
                     class="bg-white rounded-xl shadow-sm border border-gray-200 py-8 text-center transition duration-300 hover:bg-[#1f9d9c] hover:text-white">
                     <h4 class="text-lg font-semibold">
@@ -302,7 +296,6 @@ if ($count == 0) {
                     </h4>
                 </div>
 
-                <!-- Partner 4 -->
                 <div
                     class="bg-white rounded-xl shadow-sm border border-gray-200 py-8 text-center transition duration-300 hover:bg-[#1f9d9c] hover:text-white">
                     <h4 class="text-lg font-semibold">
@@ -313,7 +306,7 @@ if ($count == 0) {
             </div>
 
         </div>
-    </section>
+    </section> -->
 
     <section class="bg-[#00cec9] py-32 px-20">
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -417,6 +410,26 @@ if ($count == 0) {
                         We unify <b>Networking</b>, <b>Convergence</b>, and <b>Collaboration</b> into secure, scalable ecosystems. Our expertise spans <b>IS Consulting</b>, <b>Next-Gen Security</b>, and <b>Procurement</b> . As an <b>Authorized Service Center</b> we provide <b>SLA-backed maintenance</b> and <b></b> to ensure high-performance business continuity.
                     </p>
                     <a href="integrated-solutions" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                        Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </a>
+                </div>
+                <div class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 w-full md:w-80 flex flex-col text-left">
+                    <img src="images/services7.jpeg" alt="Integrated Solutions" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Recuritment & IT Training</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        We deliver <strong>top-tier talent and future-ready IT training that build high-performing, skilled teams</strong>. Through specialized recruitment and hands-on instruction in software development, system administration, and digital automation, we equip your workforce with the expertise needed to thrive in today’s evolving digital landscape.
+                    </p>
+                    <a href="recuritment&It-training" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
+                        Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </a>
+                </div>
+                <div class="group bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition duration-300 w-full md:w-80 flex flex-col text-left">
+                    <img src="images/services9.jpeg" alt="Integrated Solutions" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Photography & Videography</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        We create <strong>high-end, cinematic visuals that elevate and define your brand </strong>combining technical expertise with artistic storytelling. From corporate productions and events to specialized industrial coverage, our work transforms real-world moments into powerful visual assets that drive engagement and strengthen your digital identity.
+                    </p>
+                    <a href="photography&videography" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
                         Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
                     </a>
                 </div>
@@ -634,7 +647,7 @@ if ($count == 0) {
                 catalyze your next phase of growth.
             </p>
 
-            <a href="#"
+            <a href="about"
                 class="inline-block px-8 py-3 bg-[#1f9d9c]  text-white font-semibold rounded-lg shadow hover:bg-[#6e6e6e] transition-colors duration-300">
                 Learn More
             </a>
@@ -657,7 +670,7 @@ if ($count == 0) {
         </h3>
 
         <!-- Button -->
-        <a href="#"
+        <a href="#contact"
             class="inline-block px-8 py-3 bg-[#1f9d9c] text-white font-semibold rounded-lg shadow hover:bg-[#6e6e6e] transition-colors duration-300">
             Get Started
         </a>
@@ -863,6 +876,77 @@ if ($count == 0) {
             top: 0,
             behavior: "smooth"
         });
+    });
+</script>
+
+<!-- Particle JS -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script>
+    tsParticles.load("particles-bg", {
+        fpsLimit: 60,
+        background: {
+            color: "transparent"
+        },
+        particles: {
+            number: {
+                value: 60,
+                density: {
+                    enable: true,
+                    area: 800
+                }
+            },
+            color: {
+                value: "#00cec9"
+            },
+            shape: {
+                type: "circle"
+            },
+            opacity: {
+                value: 0.3,
+                random: true
+            },
+            size: {
+                value: {
+                    min: 2,
+                    max: 6
+                },
+                random: true
+            },
+            move: {
+                enable: true,
+                speed: 1.5,
+                direction: "none",
+                outModes: "out"
+            },
+            links: {
+                enable: true,
+                distance: 120,
+                color: "#FFD700",
+                opacity: 0.2,
+                width: 1
+            }
+        },
+        interactivity: {
+            events: {
+                onHover: {
+                    enable: true,
+                    mode: "repulse"
+                },
+                onClick: {
+                    enable: true,
+                    mode: "push"
+                }
+            },
+            modes: {
+                repulse: {
+                    distance: 120
+                },
+                push: {
+                    quantity: 4
+                }
+            }
+        },
+        detectRetina: true
     });
 </script>
 

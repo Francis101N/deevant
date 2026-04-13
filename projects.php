@@ -377,22 +377,39 @@
                 <div id="product2" class="projects">
 
                     <div class="project-card">
-                        <img src="images/project3.jpg">
-                        <h4>ccv</h4>
-                        <p>Complete digital academic management platform.</p>
-                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                            Click to view
+
+                        <video
+                            src="images/cctv-video.mp4"
+                            autoplay
+                            loop
+                            muted
+                            playsinline
+                            class="w-full h-[500px] rounded-lg object-cover">
+                        </video>
+
+                        <h4>CCTV Camera installations.</h4>
+                        <p>Reliable surveillance solutions for enhanced security and monitoring....</p>
+
+                        <a href="https://www.instagram.com/reel/DVzEoUuDOFZ/?igsh=MWk3ajZmOHM4YWJhZA==" class="text-red-500 hover:text-red-600 font-medium p-4">
+                            Watch Video
                         </a>
+
                         <br><br>
                     </div>
 
                     <div class="project-card">
-                        <img src="images/project4.jpg">
-                        <h4>Hospital Portal</h4>
-                        <p>Healthcare management system for clinics.</p>
-                        <a href="" class="text-red-500 hover:text-red-600 font-medium p-4">
-                            Click to view
-                        </a>
+                        <img src="images/WhatsApp Image 2026-04-13 at 4.06.24 PM (1).jpeg">
+
+                        <br><br>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/WhatsApp Image 2026-04-13 at 4.06.24 PM (2).jpeg">
+
+                        <br><br>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/WhatsApp Image 2026-04-13 at 4.06.24 PM.jpeg">
+
                         <br><br>
                     </div>
 

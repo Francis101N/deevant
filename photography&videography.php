@@ -93,19 +93,25 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/Recruitment.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/photography.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/Recruitment2.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/photography2.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/Recruitment3.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/photography3.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
 
                 <div class="group overflow-hidden rounded-2xl shadow-md">
-                    <img src="images/Recruitment4.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                    <img src="images/photography4.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                </div>
+                <div class="group overflow-hidden rounded-2xl shadow-md">
+                    <img src="images/photography5.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
+                </div>
+                <div class="group overflow-hidden rounded-2xl shadow-md">
+                    <img src="images/photography6.jpeg" class="w-full h-[800px] object-cover transform group-hover:scale-110 transition duration-500 ease-in-out">
                 </div>
             </div>
         </section>

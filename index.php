@@ -218,6 +218,26 @@ if ($count == 0) {
             padding-top: 20px;
         }
     }
+
+    .animate-slide {
+        display: flex;
+        width: max-content;
+        animation: scrollLeft 20s linear infinite;
+    }
+
+    .animate-slide:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes scrollLeft {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
 </style>
 
 <body>
@@ -225,8 +245,10 @@ if ($count == 0) {
     include('inc/header.php');
     ?>
 
-    <section class="bg-white main">
-        <div class="container mx-auto max-w-7xl px-6">
+    <section class="bg-white main min-h-screen flex items-center">
+
+        <div class="container mx-auto max-w-7xl px-6 w-full">
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                 <!-- Left Content -->
@@ -240,23 +262,25 @@ if ($count == 0) {
 
                         We deliver cutting-edge technology solutions that transform businesses. Our services integrate <b>web</b> and <b>mobile development</b>, <b>UI/UX design</b>, and <b>intelligent automation</b> with professional <b>photography</b> and <b>cinematography</b>. From <b>server room setups</b> and <b>internet installations</b> to <b>IT training</b>, <b>recruitement</b> and <b>technical support</b>, we provide the <b>strategic infrastructure</b> and <b>creative media</b> needed to drive efficiency, growth, and digital innovation.
                     </p>
+
                     <br><br>
+
                     <a href="#contact" class="inline-block px-6 py-3 bg-[#6e6e6e] text-white font-medium rounded-lg
-                    transition duration-300 hover:bg-[#1f9d9c] hover:text-white">
+                transition duration-300 hover:bg-[#1f9d9c] hover:text-white">
                         Get Started
                     </a>
-
                 </div>
 
-                <!-- Right Image (Animated) -->
-                <div
-                    class="relative overflow-hidden opacity-0 translate-x-20 transition-all duration-1000 ease-out slide-in-right">
+                <!-- Right Image -->
+                <div class="relative overflow-hidden opacity-0 translate-x-20 transition-all duration-1000 ease-out slide-in-right">
                     <img src="images/deevant-home.jpeg" alt="Technology solutions"
                         class="w-full h-auto rounded-xl shadow-lg">
                 </div>
 
             </div>
+
         </div>
+
     </section>
 
     <!-- <section class="bg-gray-50 py-20">
@@ -308,7 +332,7 @@ if ($count == 0) {
         </div>
     </section> -->
 
-    <section class="bg-[#00cec9] py-32 px-20">
+    <section class="bg-[#00cec9] py-32 px-10">
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
             <!-- Left Content -->
@@ -348,7 +372,7 @@ if ($count == 0) {
                     <img src="images/services1.jpeg" alt="Web and Mobile Development" class="w-full h-40 object-cover rounded-md mb-4">
                     <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Web & Mobile App Development</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                        We create bespoke web and mobile solutions that extend your brand, combining intuitive design with scalable, high-performance technology.
+                        We create bespoke web and mobile solutions that extend your brand, combining intuitive design with scalable, high-performance & secured technology.
                     </p>
                     <a href="web&app-dev" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
                         Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
@@ -396,7 +420,7 @@ if ($count == 0) {
                     <img src="images/services5.jpeg" alt="Tailored Technology Workflows" class="w-full h-40 object-cover rounded-md mb-4">
                     <h4 class="text-xl font-semibold mb-2 font-[Sacramento]" style="color:#1f9d9c;">Tailored Workflows</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                        We create bespoke technology workflows that remove bottlenecks and provide an agile foundation for innovation.
+                        We design bespoke technology workflows aligned with your business operations, removing bottlenecks and improving efficiency through smart optimization and automation. This creates a streamlined, agile foundation that supports innovation, scalability, and long-term growth.
                     </p>
                     <a href="tailored-workflows" class="mt-auto text-[#1f9d9c] font-semibold text-sm flex items-center group-hover:underline">
                         Learn More <span class="ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
@@ -535,30 +559,32 @@ if ($count == 0) {
             </p>
 
             <!-- Logos -->
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-10 items-center">
-                <div class="flex justify-center">
+            <div class="overflow-hidden relative py-6">
+
+                <div class="flex items-center gap-16 animate-slide">
+
+                    <!-- Logos -->
                     <a href="https://techbyfrancis.com" target="_blank" rel="noopener noreferrer">
-                        <img src="images/techbyfrancis linkedin.jpg" alt="Tech by Francis LinkedIn" class="h-14 object-contain grayscale opacity-0 translate-y-6
-             hover:grayscale-0 hover:opacity-100
-             transition duration-300 reveal-logo" />
+                        <img src="images/techbyfrancis linkedin.jpg"
+                            class="h-14 object-contain grayscale hover:grayscale-0 transition" />
                     </a>
+                    <img src="images/maltina.jpg" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    <img src="images/shell.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    <img src="images/air peace.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    <img src="images/BBR_logo.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+
+                    <!-- Duplicate logos (for seamless loop) -->
+                    <a href="https://techbyfrancis.com" target="_blank" rel="noopener noreferrer">
+                        <img src="images/techbyfrancis linkedin.jpg"
+                            class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    </a>
+                    <img src="images/maltina.jpg" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    <img src="images/shell.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    <img src="images/air peace.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    <img src="images/BBR_logo.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+
                 </div>
 
-
-                <div class="flex justify-center">
-                    <img src="images/maltina.jpg" alt="Maltina"
-                        class="h-14 object-contain grayscale opacity-0 translate-y-6 hover:grayscale-0 hover:opacity-100 transition duration-300 reveal-logo">
-                </div>
-
-                <div class="flex justify-center">
-                    <img src="images/shell.png" alt="Shell"
-                        class="h-14 object-contain grayscale opacity-0 translate-y-6 hover:grayscale-0 hover:opacity-100 transition duration-300 reveal-logo">
-                </div>
-
-                <div class="flex justify-center">
-                    <img src="images/air peace.png" alt="Air Peace"
-                        class="h-14 object-contain grayscale opacity-0 translate-y-6 hover:grayscale-0 hover:opacity-100 transition duration-300 reveal-logo">
-                </div>
             </div>
 
         </div>

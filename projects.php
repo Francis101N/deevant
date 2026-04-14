@@ -398,17 +398,17 @@
                     </div>
 
                     <div class="project-card">
-                        <img src="images/WhatsApp Image 2026-04-13 at 4.06.24 PM (1).jpeg">
+                        <img src="images/WhatsApp Image 2026-04-13 at 4.06.24 PM (1).jpeg" style="height: 500px;">
 
                         <br><br>
                     </div>
                     <div class="project-card">
-                        <img src="images/WhatsApp Image 2026-04-13 at 4.06.24 PM (2).jpeg">
+                        <img src="images/WhatsApp Image 2026-04-13 at 4.06.24 PM (2).jpeg" style="height: 500px;">
 
                         <br><br>
                     </div>
                     <div class="project-card">
-                        <img src="images/WhatsApp Image 2026-04-13 at 4.06.24 PM.jpeg">
+                        <img src="images/WhatsApp Image 2026-04-13 at 4.06.24 PM.jpeg" style="height: 500px;">
 
                         <br><br>
                     </div>

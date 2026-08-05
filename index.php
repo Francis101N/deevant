@@ -565,24 +565,34 @@ if ($count == 0) {
                 <div class="flex items-center gap-16 animate-slide">
 
                     <!-- Logos -->
-                    <a href="https://techbyfrancis.com" target="_blank" rel="noopener noreferrer">
-                        <img src="images/techbyfrancis linkedin.jpg"
+                    <a href="https://techbyfrancis.com" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                        <img src="images/techbyfrancis linkedin.jpg" alt="TechByFrancis"
                             class="h-14 object-contain grayscale hover:grayscale-0 transition" />
                     </a>
-                    <img src="images/maltina.jpg" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
-                    <img src="images/shell.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
-                    <img src="images/air peace.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
-                    <img src="images/BBR_logo.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
-
-                    <!-- Duplicate logos (for seamless loop) -->
-                    <a href="https://techbyfrancis.com" target="_blank" rel="noopener noreferrer">
-                        <img src="images/techbyfrancis linkedin.jpg"
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                        <img src="images/khaveli.jpeg" alt="khaveli"
                             class="h-14 object-contain grayscale hover:grayscale-0 transition" />
                     </a>
-                    <img src="images/maltina.jpg" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
-                    <img src="images/shell.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
-                    <img src="images/air peace.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
-                    <img src="images/BBR_logo.png" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                        <img src="images/jerrykay.jpeg" alt="jerrykay"
+                            class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                        <img src="images/dehcode.jpeg" alt="dehcode"
+                            class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    </a>
+                    <a href="https://www.nbplc.com/our-brands/maltina/" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                        <img src="images/maltina.jpg" alt="Maltina" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    </a>
+                    <a href="https://www.shell.com/" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                        <img src="images/shell.png" alt="Shell" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    </a>
+                    <a href="https://www.airpeace.com.ng/" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                        <img src="images/air peace.png" alt="Air Peace" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    </a>
+                    <a href="https://bbrdolcevita.net/" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                        <img src="images/BBR_logo.png" alt="BBR Logo" class="h-14 object-contain grayscale hover:grayscale-0 transition" />
+                    </a>
 
                 </div>
 

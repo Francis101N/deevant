@@ -569,7 +569,7 @@ if ($count == 0) {
                         <img src="images/techbyfrancis linkedin.jpg" alt="TechByFrancis"
                             class="h-14 object-contain grayscale hover:grayscale-0 transition" />
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="shrink-0">
+                    <a href="https://www.instagram.com/the_khaveli_brand?igsh=Z2MwNWp3djkycmp0&utm_source=qr" target="_blank" rel="noopener noreferrer" class="shrink-0">
                         <img src="images/khaveli.jpeg" alt="khaveli"
                             class="h-14 object-contain grayscale hover:grayscale-0 transition" />
                     </a>
